@@ -13,7 +13,7 @@ Manual
 * [FAQ / Common Issues](FAQ)
 
 ### Usage
-  * [Installation]
+  * [[Installation]]
   * [Creating Custom Items](Usage)
   * [Using with MMOItems](MMOItems)
 ### New Mechanics
