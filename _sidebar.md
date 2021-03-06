@@ -4,6 +4,7 @@
 * [FAQ / Common Issues](FAQ)
 
 ### Usage
+  * [[Installation]]
   * [Creating Custom Items](Usage)
   * [Using with MMOItems](MMOItems)
 ### New Mechanics
