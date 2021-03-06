@@ -4,7 +4,7 @@
 * [FAQ / Common Issues](FAQ)
 
 ### Usage
-  * [Creating Custom Items](Usage]
+  * [Creating Custom Items](Usage)
   * [Using with MMOItems](MMOItems)
 ### New Mechanics
   * [Item Mechanics](Skills/Mechanics)
