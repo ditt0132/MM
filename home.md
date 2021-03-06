@@ -5,12 +5,22 @@ MythicCrucible is an add-on for MythicMobs that allows you to create custom item
 
 Items can use any MythicMobs mechanics or skills, most triggers (including new triggers specifically for items), and many new special options!
 
-Usage
+Manual
 -----
+* [[Home]]
+* [[Changelogs]]
+* [[Commands and Permissions]]
+* [FAQ / Common Issues](FAQ)
 
--   [Configuration]
--   [Commands]
--   [Permissions]
--   [FAQ's]
--   [Examples]
--   [Videos]
+### Usage
+  * [Installation]
+  * [Creating Custom Items](Usage)
+  * [Using with MMOItems](MMOItems)
+### New Mechanics
+  * [Item Mechanics](Skills/Mechanics)
+  * [Item Targeters](Skills/Targeters)
+  * [Item Triggers](Skills/Triggers)
+  * [Item Conditions](Skills/Conditions)
+### Special Features
+  * [Ammo System / Making Guns](Ammo)
+  * [Special Options](Options)
