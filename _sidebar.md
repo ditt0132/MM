@@ -3,14 +3,14 @@
 * [[Commands and Permissions]]
 * [FAQ / Common Issues](FAQ)
 
-### [Usage](Usage)
-  * [Usage](Creating Custom Items)
-  * [MMOItems](Using with MMOItems)
+### Usage
+  * [Creating Custom Items](Usage]
+  * [Using with MMOItems](MMOItems)
 ### New Mechanics
-  * [Mechanics](Skills/Item Mechanics)
-  * [Targeters](Skills/Item Targeters)
-  * [Triggers](Skills/Item Triggers)
-  * [Conditions](Skills/Item Conditions)
+  * [Item Mechanics](Skills/Mechanics)
+  * [Item Targeters](Skills/Targeters)
+  * [Item Triggers](Skills/Triggers)
+  * [Item Conditions](Skills/Conditions)
 ### Special Features
-  * [Ammo](Ammo System)
-  * [Options](Special Options)
+  * [Ammo System / Making Guns](Ammo)
+  * [Special Options](Options)
