@@ -21,6 +21,7 @@ Once you've created your dummy MythicMobs item, you just have to go add the appr
 - Click **NBT Tags** to add an NBT tag
 - Enter: **MYTHIC_TYPE [dummy_item_name]**
 - That's it!
+
 ![exampleimage1](uploads/ffc3d80f080dacb9a47a04974c03a04f/exampleimage1.png)
 
 After you add the NBT tag to your MMOItem, the MMOItem will act as though it has the same skills as the dummy item you created.
