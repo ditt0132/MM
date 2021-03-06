@@ -24,3 +24,10 @@ Manual
 ### Special Features
   * [Ammo System / Making Guns](Ammo)
   * [Special Options](Options)
+
+
+Planned Features
+----------------
+* Interactions with MythicLib stats
+* More NBT Mechanics
+* More NBT Conditions
