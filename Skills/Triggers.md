@@ -6,6 +6,8 @@ Crucible supports all triggers that generally make sense, and also adds a bunch 
 | onBlockBreak   | When the player breaks a block                                                 |
 | onBlockPlace   | When the player places a block                                                 |
 | onConsume      | Triggered if the item is food or a potion that is eaten                        |
+| onCrouch       | When the player crouches                                                       |
+| onUnCrouch     | When the player stops crouching                                                |
 | onDamaged      | When the player is damaged                                                     |
 | onDeath        | When the player dies                                                           |
 | onInteract     | When the player interacts with an entity                                       |
@@ -27,3 +29,5 @@ Crucible supports all triggers that generally make sense, and also adds a bunch 
 | onPressQ       | When a player presses Q to drop the item. Requires ProtocolLib                 |
 | onPressCtrlQ   | When a player presses CTRL+Q to drop the item. Requires ProtocolLib            |
 | onPressF       | When a player presses F to swap the item. Requires ProtocolLib                 |
+| onEquip        | When a player equips an armor piece.                                           |
+| onUnEquip      | When a player unequips an armor piece.                                         |
