@@ -31,3 +31,5 @@ Crucible supports all triggers that generally make sense, and also adds a bunch 
 | onPressQ       | When a player presses Q to drop the item. Requires ProtocolLib                 |
 | onPressCtrlQ   | When a player presses CTRL+Q to drop the item. Requires ProtocolLib            |
 | onPressF       | When a player presses F to swap the item. Requires ProtocolLib                 |
+| onKeyPress     | When a player presses a key. Requires [MythicKeysPlugin](https://www.spigotmc.org/resources/mythickeysplugin-custom-keybinds-api.98893/) for the server and [MythicKeys mod](https://github.com/ASangarin/MythicKeys) for the client |
+| onKeyRelease    | When a player releases a key. Requires [MythicKeysPlugin](https://www.spigotmc.org/resources/mythickeysplugin-custom-keybinds-api.98893/) for the server and [MythicKeys mod](https://github.com/ASangarin/MythicKeys) for the client |
