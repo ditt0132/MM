@@ -12,7 +12,6 @@ These mechanics are added by Crucible, and are meant to be used with players and
 | [AmmoConsume](Skills/Mechanics/AmmoConsume)           | Consumes ammo to execute a skill      |
 | [AmmoGive](Skills/Mechanics/AmmoGive)                 | Gives the target player NBT Ammo      |
 | [AmmoReload](Skills/Mechanics/AmmoReload)             | Attempts to reload an item's ammo     |
-| [PlayArmAnimation](Skills/Mechanics/PlayArmAnimation) | Plays an arm animation for the target player |
 | [ParseArmor](Skills/Mechanics/ParseArmor)             | Force a re-scan of the caster's armor |
 | [ParseWeapon](Skills/Mechanics/ParseWeapon)           | Force a re-scan of the caster's weapon |
 | [ModelSet](Skills/Mechanics/ModelSet)                 | Sets the calling item's model |
