@@ -33,3 +33,6 @@ Crucible supports all triggers that generally make sense, and also adds a bunch 
 | onPressF       | When a player presses F to swap the item. Requires ProtocolLib                 |
 | onKeyPress     | When a player presses a key. Requires [MythicKeysPlugin](https://www.spigotmc.org/resources/mythickeysplugin-custom-keybinds-api.98893/) for the server and [MythicKeys mod](https://github.com/ASangarin/MythicKeys) for the client |
 | onKeyRelease    | When a player releases a key. Requires [MythicKeysPlugin](https://www.spigotmc.org/resources/mythickeysplugin-custom-keybinds-api.98893/) for the server and [MythicKeys mod](https://github.com/ASangarin/MythicKeys) for the client |
+| onJoin         | When a player joins the server                                                 |
+| onRespawn      | When a player respawns                                                         |
+| onPickup       | When a player picks up a crucible item                                         |
