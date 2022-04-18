@@ -19,4 +19,4 @@ These mechanics are added by Crucible, and are meant to be used with players and
 | [ModelToggle](Skills/Mechanics/ModelToggle)                 | Toggles the calling item's model             |
 | [ResetAttackCooldown](Skills/Mechanics/ResetAttackCooldown) | Resets the player's attack cooldown          |
 | [SetCrossbowCharged](Skills/Mechanics/SetCrossbowCharged)   | Sets the state of the held crossbow's charge |
-| [SetItemDisplay](/Skills/Mechanics/SetItemDisplay)          | Sets the item's displayed name               |
+| [SetItemDisplay](/Skills/Mechanics/SetItemDisplay)          | Sets the item display name                   |
