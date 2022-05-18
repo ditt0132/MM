@@ -13,6 +13,8 @@ TestRecipe:
     FURNACE:
       Type: FURNACE
       Amount: 1
+      CookingTime: 120
+      Experience: 5
       Ingredient: diamond
     SHAPED_1:
       Type: SHAPED
