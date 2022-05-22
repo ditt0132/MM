@@ -1,4 +1,5 @@
-```CustomDurability:
+```
+CustomDurability:
   Durability: 20
 ```
 
