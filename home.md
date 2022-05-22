@@ -15,6 +15,7 @@ Manual
 ### Usage
   * [[Installation]]
   * [Creating Custom Items](Usage)
+  * [Custom Durability](CustomDurability)
   * [Creating Furniture](Furniture)
   * [Creating Crafting Recipes](Recipes)
   * [Using with MMOItems](MMOItems)
