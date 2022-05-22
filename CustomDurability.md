@@ -1,4 +1,4 @@
-`CustomDurability:
-  Durability: 20`
+`CustomDurability:`
+  `Durability: 20`
 
-Will give an item 20 durability. Only works on items that can normally have durability. 
+Will give an item 20 durability. Only works on items that can normally have durability.
