@@ -18,6 +18,7 @@ Manual
   * [Custom Durability](CustomDurability)
   * [Creating Furniture](Furniture)
   * [Creating Crafting Recipes](Recipes)
+  * [Creating Custom Bags](Bags)
   * [Using with MMOItems](MMOItems)
 ### New Mechanics
   * [Item Mechanics](Skills/Mechanics)
