@@ -1,7 +1,7 @@
-Mechanic: UpdateItemLore
+Mechanic: UpdateLore
 ================
 
-Parses placeholders in the item's lore config.
+Reparses the lore in your item config
 
 Attributes
 ----------
@@ -17,5 +17,5 @@ MyItem:
   Lore:
     - 'This is a random number <random.0to5>'
   Skills:
-    - updateitemlore{} ~onUse
+    - updatelore{} ~onUse
 ```
