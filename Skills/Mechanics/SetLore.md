@@ -1,4 +1,4 @@
-Mechanic: SetItemLore
+Mechanic: SetLore
 ================
 
 Sets the new lore of the item
@@ -23,5 +23,5 @@ MyItem:
     - 'This is line 1'
     - 'This is line 2'
   Skills:
-    - setitemlore{l="This is line 1","Is this line 2"} ~onUse
+    - setlore{l="This is line 1","Is this line 2"} ~onUse
 ```
