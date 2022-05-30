@@ -21,6 +21,5 @@ These mechanics are added by Crucible, and are meant to be used with players and
 | [SetCrossbowCharged](Skills/Mechanics/SetCrossbowCharged)   | Sets the state of the held crossbow's charge |
 | [SetItemDisplay](/Skills/Mechanics/SetItemDisplay)          | Sets the item display name                   |
 | [InventoryClear](/Skills/Mechanics/InventoryClear)          | Clears the target's inventory                |                                            |
-| [SetItemLore](/Skills/Mechanics/SetItemLore)                | Sets the item's new lore                     |
+| [SetLore](/Skills/Mechanics/SetItemLore)                | Sets the item's new lore                     |
 | [UpdateItemLore](/Skills/Mechanics/UpdateItemLore)          | Reparses the item's lore config              |
-
