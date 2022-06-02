@@ -8,6 +8,9 @@ Creating a bag is simple, all you need to do is give the Crucible Item a `BAG` t
 BAG_TEST:
   Id: paper
   Type: BAG
+  Inventory:
+    Title:
+    Size:
 ```
 
 ### Bag Options
