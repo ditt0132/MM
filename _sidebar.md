@@ -15,3 +15,6 @@
 ### Special Features
   * [Ammo System / Making Guns](Ammo)
   * [Special Options](Options)
+### Furniture
+  * [Furniture](Furniture)
+  * [Furniture Options](Furniture/Options)
