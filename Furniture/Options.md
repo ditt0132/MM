@@ -1,4 +1,4 @@
-Mob Options
+Furniture Options
 ===========
 
 Just like with Mobs, Furniture can have options to customize how they behave and can be placed.
