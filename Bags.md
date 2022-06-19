@@ -9,8 +9,10 @@ BAG_TEST:
   Id: paper
   Type: BAG
   Inventory:
-    Title:
-    Size:
+    Title: Small Bag
+    Size: 9
+  Skills:
+  - openinventory{} ~onUse
 ```
 
 ### Bag Options
