@@ -5,7 +5,7 @@ Crucible allows you to create custom bags.
 Creating a bag is simple, all you need to do is give the Crucible Item a `BAG` type.
 
 ```yml
-BAG_TEST:
+SMALL_BAG:
   Id: paper
   Type: BAG
   Inventory:
