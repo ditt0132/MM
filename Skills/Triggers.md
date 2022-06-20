@@ -36,3 +36,16 @@ Crucible supports all triggers that generally make sense, and also adds a bunch 
 | onJoin         | When a player joins the server                                                                                                                                                                                                        |
 | onRespawn      | When a player respawns                                                                                                                                                                                                                |
 | onPickup       | When a player picks up a crucible item                                                                                                                                                                                                |
+
+Example Usages
+--------
+
+**MythicKeys Triggers**
+```yml
+COOL_ITEM:
+  Id: STICK
+  Display: I'm a cool stick
+  Skills:
+    - message{m="You pressed the jump key"} @Self ~onPress ?keyid{id=minecraft:jump}
+    - message{m="You released the jump key"} @Self ~onRelease ?keyid{id=minecraft:jump}
+```
