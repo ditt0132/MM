@@ -36,6 +36,8 @@ Crucible supports all triggers that generally make sense, and also adds a bunch 
 | onJoin         | When a player joins the server                                                                                                                                                                                                        |
 | onRespawn      | When a player respawns                                                                                                                                                                                                                |
 | onPickup       | When a player picks up a crucible item                                                                                                                                                                                                |
+| onHold         | When the player holds an item                                                                                                                                                                                                         |
+
 
 Example Usages
 --------
