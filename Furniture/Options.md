@@ -7,6 +7,7 @@ Just like with Mobs, Furniture can have options to customize how they behave and
 TestFurniture:
   Id: IRON_NUGGET
   Display: 'Probably a Chair'
+  Model:
   Type: FURNITURE
   Furniture:
     Material: 
@@ -25,7 +26,8 @@ TestFurniture:
 
 **Model: \[CustomModelData#\]**
 
-      * The Custom Model Data # to represent the furniture WHEN PLACED!
+      * The Model under Display represents the Model held IN HAND!
+      * The Custom Model Data # the one below furniture is used to represent the furniture WHEN PLACED!
       * This is not the same as model in the item's base config, which will define how it looks in the inventory, or when placed in an item frame.
 
 **Placement: \[FLOOR/HANGING/CEILING/WALL\]**
