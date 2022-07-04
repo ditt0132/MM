@@ -15,10 +15,11 @@ Manual
 ### Usage
   * [[Installation]]
   * [Creating Custom Items](Usage)
-  * [Custom Durability](CustomDurability)
+  * [Creating Custom Blocks](CustomBlocks)
   * [Creating Furniture](Furniture)
   * [Creating Crafting Recipes](Recipes)
   * [Creating Custom Bags](Bags)
+  * [Item Durability](CustomDurability)
   * [Using with MMOItems](MMOItems)
 ### New Mechanics
   * [Item Mechanics](Skills/Mechanics)
