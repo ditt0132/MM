@@ -6,7 +6,7 @@
 ### Usage
   * [[Installation]]
   * [Creating Custom Items](Usage)
-  * [Creating Custom Blocks](CustomBlocks)
+  * [Creating Custom Blocks](Custom-Blocks)
   * [Creating Furniture](Furniture)
   * [Creating Crafting Recipes](Recipes)
   * [Creating Custom Bags](Bags)
