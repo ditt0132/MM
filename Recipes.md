@@ -31,6 +31,11 @@ TestRecipe:
       Ingredients:
       - apple | air
       - air | apple
+    BREWER_1:
+      Type: BREWING
+      Amount: 1
+      Ingredient: apple
+      InputItem: diamond
     SHAPELESS_1:
       Type: SHAPELESS
       Amount: 1
