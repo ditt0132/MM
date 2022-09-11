@@ -9,6 +9,7 @@ Added in v1.5.0 dev builds.
 - `CAMPFIRE` - In a Campfire
 - `BLASTING` - In a Blast Furnace
 - `SMOKING` - In a Smoker
+- `STONECUTTING` - In a stonecutter
 - `BREWING` - Brewed in a brewing stand
 
 Example Configuration
