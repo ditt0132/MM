@@ -9,7 +9,8 @@ Added in v1.5.0 dev builds.
 - [`CAMPFIRE`](Recipes/Furnace) - In a Campfire
 - [`BLASTING`](Recipes/Furnace) - In a Blast Furnace
 - [`SMOKING`](Recipes/Furnace) - In a Smoker
-- [`STONECUTTING`](Recipes/Stonecutting) - In a stonecutter
+- [`SMITHING`](Recipes/Stonecutting) - In a stonecutter
+- [`STONECUTTING`](Recipes/Smithing) - In a smithing table
 - [`BREWING`](Recipes/Brewing) - Brewed in a brewing stand
 
 Example Configuration
