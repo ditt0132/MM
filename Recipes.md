@@ -3,14 +3,14 @@ Crafting Recipes
 Added in v1.5.0 dev builds.
 
 ### Available Recipe Types
-- `SHAPELESS` - A shapeless recipe
-- `SHAPED` - A recipe that requires a certain shape
-- `FURNACE` - In a Furnace
-- `CAMPFIRE` - In a Campfire
-- `BLASTING` - In a Blast Furnace
-- `SMOKING` - In a Smoker
-- `STONECUTTING` - In a stonecutter
-- `BREWING` - Brewed in a brewing stand
+- [`SHAPELESS`](Recipes/Shapeless) - A shapeless recipe
+- [`SHAPED`](Recipes/Shaped) - A recipe that requires a certain shape
+- [`FURNACE`](Recipes/Furnace) - In a Furnace
+- [`CAMPFIRE`](Recipes/Furnace) - In a Campfire
+- [`BLASTING`](Recipes/Furnace) - In a Blast Furnace
+- [`SMOKING`](Recipes/Furnace) - In a Smoker
+- [`STONECUTTING`](Recipes/Stonecutting) - In a stonecutter
+- [`BREWING`](Recipes/Brewing) - Brewed in a brewing stand
 
 Example Configuration
 ---------------------
