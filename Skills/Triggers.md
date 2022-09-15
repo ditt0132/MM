@@ -37,7 +37,7 @@ Crucible supports all triggers that generally make sense, and also adds a bunch 
 | onRespawn      | When a player respawns                                                                                                                                                                                                                |
 | onPickup       | When a player picks up a crucible item                                                                                                                                                                                                |
 | onHold         | When the player holds an item                                                                                                                                                                                                         |
-| onUnclasp      | When the player switches off the item from their hotbar                                                                                                                                                                               |
+| onUnHeld      | When the player switches off the item from their hotbar                                                                                                                                                                               |
 
 
 Example Usages
