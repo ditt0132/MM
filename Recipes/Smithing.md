@@ -8,7 +8,7 @@ ExampleItem:
   Model: 1
   Display: 'Synthetic Diamond'
   Recipes:
-    SHAPELESS:
+    SMITHING_1:
       Type: SMITHING
       Amount: 1
       BaseItem: COAL
