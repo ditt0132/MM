@@ -6,7 +6,7 @@ Smithing Recipes
 ExampleItem:
   Id: DIAMOND
   Model: 1
-  Display: 'An example item'
+  Display: 'Synthetic Diamond'
   Recipes:
     SHAPELESS:
       Type: SMITHING
