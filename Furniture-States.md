@@ -1,6 +1,6 @@
 An example of how furniture states is used.
 
-TestFurnitureStates:
+```TestFurnitureStates:
   Id: BRICK
   Model: 2
   Display: 'Test States'
@@ -26,4 +26,4 @@ TestFurnitureStates:
   - setFurnitureState{state=REPAIRED} ~onInteract
 ?furnitureState{s=HALF_REPAIRED}
   - setFurnitureState{state=HALF_REPAIRED} ~onInteract
-?furnitureState{s=BROKEN}
+?furnitureState{s=BROKEN}```
