@@ -22,3 +22,4 @@
   * [Special Options](Options)
 ### [Furniture](Furniture)
   * [Furniture Options](Furniture/Options)
+  * [Furniture States](Furniture-States)
