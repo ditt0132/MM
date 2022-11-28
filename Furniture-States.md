@@ -1,6 +1,7 @@
 An example of how furniture states is used.
 
-```TestFurnitureStates:
+```
+TestFurnitureStates:
   Id: BRICK
   Model: 2
   Display: 'Test States'
