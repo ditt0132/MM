@@ -6,7 +6,7 @@ Highlights
 - [Custom Blocks](Custom-Blocks)
 - [Crafting](Recipes)
 - [Bags](Bags)
-- Furniture States[](https://git.mythiccraft.io/mythiccraft/mythiccrucible/-/wikis/Furniture-States)
+- [Furniture States](Furniture-States)
 
 General
 -------
