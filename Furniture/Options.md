@@ -79,3 +79,4 @@ Lights:
 Seats:
 - 0,1,0,180,0 #will place a seat one block above the frame with a rotation clip of 180 degrees
 ```
+[See also Furniture states](Furniture-States)
