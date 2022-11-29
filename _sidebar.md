@@ -5,26 +5,22 @@
 
 ##### Usage
   * [[Installation]]
-  * [Creating Custom Items](Usage)
-  * [Creating Custom Blocks](Custom-Blocks)
-  * [Creating Furniture](Furniture)
-  * [Creating Crafting Recipes](Recipes)
-  * [Creating Custom Bags](Bags)
+  * [Item Options](Options)
+  * [Item Skills](Usage)
+  * [Custom Blocks](Custom-Blocks)
+  * [Furniture](Furniture) 
+    * [Furniture Options](Furniture/Options)
+    * [Furniture States](Furniture-States)
+  * [Crafting Recipes](Recipes)
+  * [Custom Bags](Bags)
   * [Item Durability](CustomDurability)
+  * [Ammo System / Guns](Ammo)
 
 ##### New Mechanics
   * [Item Mechanics](Skills/Mechanics)
   * [Item Targeters](Skills/Targeters)
   * [Item Triggers](Skills/Triggers)
   * [Item Conditions](Skills/Conditions)
-
-##### Special Features
-  * [Ammo System / Making Guns](Ammo)
-  * [Special Options](Options)
-
-##### [Furniture](Furniture)
-  * [Furniture Options](Furniture/Options)
-  * [Furniture States](Furniture-States)
 
 <hr>
 
