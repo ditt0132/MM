@@ -1,6 +1,6 @@
 * [[Home]]
 * [[Changelogs]]
-* [[Commands and Permissions]]
+* [Commands / Permissions](Commands and Permissions)
 * [FAQ / Common Issues](FAQ)
 
 ##### Usage
