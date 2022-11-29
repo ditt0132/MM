@@ -7,13 +7,13 @@
   * [[Installation]]
   * [Item Options](Options)
   * [Item Skills](Usage)
+  * [Item Durability](CustomDurability)
   * [Custom Blocks](Custom-Blocks)
   * [Furniture](Furniture) 
     * [Furniture Options](Furniture/Options)
     * [Furniture States](Furniture-States)
   * [Crafting Recipes](Recipes)
   * [Custom Bags](Bags)
-  * [Item Durability](CustomDurability)
   * [Ammo System / Guns](Ammo)
 
 ##### New Mechanics
@@ -21,8 +21,6 @@
   * [Item Targeters](Skills/Targeters)
   * [Item Triggers](Skills/Triggers)
   * [Item Conditions](Skills/Conditions)
-
-<hr>
 
 <div align="center" width="100px">
 <a href="https://bisecthosting.com/mythiccraft">
