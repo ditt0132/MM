@@ -48,7 +48,7 @@ TestGun:
   Lore:
   - "&7Ammunition 10 / 10"
   Skills:
-   - consumeammo{amount=1; onNoAmmo=TestGun-OutOfAmmo; onUse=TestGun-Fire} @self ~onUse
+  - consumeammo{amount=1; onNoAmmo=TestGun-OutOfAmmo; onUse=TestGun-Fire} @self ~onUse
   - reloadammo{sync=false;
       onReload=TestGun-Reload;
       onFail=TestGun-Reload-Fail;
