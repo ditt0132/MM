@@ -1,3 +1,4 @@
+
 Crucible items support almost all MythicMobs base mechanics.
 
 [You can view those by clicking here here.](https://git.lumine.io/mythiccraft/MythicMobs/-/wikis/Skills/Mechanics/)
@@ -22,6 +23,5 @@ These mechanics are added by Crucible, and are meant to be used with players and
 | [SetItemDisplay](/Skills/Mechanics/SetItemDisplay)      | Sets the item display name                   |
 | [InventoryClear](/Skills/Mechanics/InventoryClear)      | Clears the target's inventory                |                                            |
 | [SetLore](/Skills/Mechanics/SetLore)                | Sets the item's new lore                     |
-| [UpdateLore](/Skills/Mechanics/UpdateLore)      | Reparses the item's lore config                    
-|            
-| [DealCustomDurability](/Skills/Mechanics/DealCustomDurability) | Deals damage or heals custom durability
+| [UpdateLore](/Skills/Mechanics/UpdateLore)      | Reparses the item's lore config                               
+| [DealCustomDurability](/Skills/Mechanics/DealCustomDurability)     | Deals damage or heals custom durability
