@@ -1,3 +1,49 @@
+1.6.0 (dev builds)
+=====
+
+Highlights
+----------
+- Custom blocks now usable in all MM mechanics and conditions
+
+Furniture
+---------
+### Display Entities (1.19.4+)
+- Added support for DisplayEntity furniture with Furniture.Type option 
+```
+  Furniture:
+    Type: DISPLAY
+```
+Type will default to DISPLAY on 1.19.4+ and ITEM_FRAME on earlier versions. DISPLAY should be backwards compatible with the default options. 
+
+Old furniture should continue to work as normally and will auto-convert types if moved. 
+
+If you're using ViaBackwards and can't use Display entities, set `Configuration.Furniture.DefaultType: ITEM_FRAME` in your config.yml
+
+### Hitboxes (1.19.4+)
+- Added hitbox support for furniture on 1.19.4+ using Interaction Entities.
+```
+Chair:
+  Furniture:
+    Hitbox:
+      Height: 1
+      Width: 1
+```
+Defaults to 1x1 if the furniture has no barriers, or 0 if it does.
+
+Triggers
+--------
+- Added ~onPressF:HAND and ~onPressF:OFFHAND
+
+Bug Fixes/Other
+---------------
+- Fixed several bugs with item updating
+- Fixed ArrayIndexOutOfBoundsException in ItemManager
+- Fixed bugs with glowing furniture
+- Fixed `Options.Placeable`
+- Fixed NPE in custom block loading with latest MM
+- Fixed obscure dupe involving giving items from console
+- Fixed several other potential dupe glitches
+
 1.5.0
 =====
 
