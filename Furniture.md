@@ -11,6 +11,7 @@ Furniture Options
 All options are placed under a "Furniture" section on an item.
 
 ### Base Options
+- `Type` - Defaults to `DISPLAY` on 1.19.4+, or `ITEM_FRAME` on lower versions.
 - `Material` - The material of the furniture object.
 - `Model` - The CustomModelData ID of the furniture object.
 - `Health` - How many times a piece of furniture has to be punched within a short interval to break.
@@ -39,6 +40,22 @@ Furniture can be configured with several special extras that are placed in the w
     - 0,0.9,0,0,0
 
 Extra blocks are configured from the perspective of an object placed when the player is facing **yaw = 0**, and are rotated accordingly depending on how the furniture is placed.
+
+Type-Specific Options
+---------------------
+
+### DISPLAY
+- `Height` - The height of the display entity used for rendering. Defaults to 1.
+- `Width` - The width of the display entity used for rendering. Defaults to 1.
+- `Billboard` - `FIXED`, `CENTER`, `HORIZONRAL`, `VERTICAL`
+- `Brightness` - How bright the object is. Defaults to max.
+- `InterpolationDelay` - The interpolation delay when the model changes.
+- `InterpolationDuration` - The duration over which the model changes (useful for state changes)
+- `Transform` - How the item is rendered. Defaults to `FIXED` which matches item frame rendering. Can also be `GROUND`, `GUI`, `HEAD`, `FIRSTPERSON_LEFTHAND`, `FIRSTPERSON_RIGHTHAND`, `THIRDPERSON_LEFTHAND`, `THIRDPERSON_RIGHTHAND`
+- `Scale` - Changes the scaling sizes of the displayed item. Defaults to `.5,.5,.5` which matches item frame rendering. 
+
+### ITEM_FRAME
+- `GlowingFrame` - Whether the frame should be a glowing frame which renders the furniture at 100% brightness at all times. Defaults to false.
 
 Example Configuration
 ---------------------
