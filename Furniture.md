@@ -24,7 +24,25 @@ Furniture drops are defined under the furniture `Drops` section. This uses the s
 
 By default the furniture will drop itself when broken if there is no Drops field defined. You can make the furniture drop nothing by setting `Drops: []` or `DropSelf: false`
 
-### Extra Blocks
+Type-Specific Options
+---------------------
+
+### DISPLAY
+- `Height` - The height of the display entity used for rendering. Defaults to 1.
+- `Width` - The width of the display entity used for rendering. Defaults to 1.
+- `Billboard` - `FIXED`, `CENTER`, `HORIZONRAL`, `VERTICAL`
+- `Brightness` - How bright the object is. Defaults to max.
+- `InterpolationDelay` - The interpolation delay when the model changes.
+- `InterpolationDuration` - The duration over which the model changes (useful for state changes)
+- `Transform` - How the item is rendered. Defaults to `FIXED` which matches item frame rendering. Can also be `GROUND`, `GUI`, `HEAD`, `FIRSTPERSON_LEFTHAND`, `FIRSTPERSON_RIGHTHAND`, `THIRDPERSON_LEFTHAND`, `THIRDPERSON_RIGHTHAND`
+- `Scale` - Changes the scaling sizes of the displayed item. Defaults to `.5,.5,.5` which matches item frame rendering. 
+
+### ITEM_FRAME
+- `GlowingFrame` - Whether the frame should be a glowing frame which renders the furniture at 100% brightness at all times. Defaults to false.
+
+
+Extra Parts
+-----------
 Furniture can be configured with several special extras that are placed in the world along with it:
 
 #### Barrier Blocks (in a `Barriers` list)
@@ -41,21 +59,30 @@ Furniture can be configured with several special extras that are placed in the w
 
 Extra blocks are configured from the perspective of an object placed when the player is facing **yaw = 0**, and are rotated accordingly depending on how the furniture is placed.
 
-Type-Specific Options
----------------------
+Furniture States
+----------------
+Furniture States are other states that furniture can be swapped into using the `furnitureState` mechanic. 
 
-### DISPLAY
-- `Height` - The height of the display entity used for rendering. Defaults to 1.
-- `Width` - The width of the display entity used for rendering. Defaults to 1.
-- `Billboard` - `FIXED`, `CENTER`, `HORIZONRAL`, `VERTICAL`
-- `Brightness` - How bright the object is. Defaults to max.
-- `InterpolationDelay` - The interpolation delay when the model changes.
-- `InterpolationDuration` - The duration over which the model changes (useful for state changes)
-- `Transform` - How the item is rendered. Defaults to `FIXED` which matches item frame rendering. Can also be `GROUND`, `GUI`, `HEAD`, `FIRSTPERSON_LEFTHAND`, `FIRSTPERSON_RIGHTHAND`, `THIRDPERSON_LEFTHAND`, `THIRDPERSON_RIGHTHAND`
-- `Scale` - Changes the scaling sizes of the displayed item. Defaults to `.5,.5,.5` which matches item frame rendering. 
+This allows you to create dynamic furniture, such as:
+- Crops that grow 
+- A lamp that turns on or off
+- Drawers that open and close
 
-### ITEM_FRAME
-- `GlowingFrame` - Whether the frame should be a glowing frame which renders the furniture at 100% brightness at all times. Defaults to false.
+States are placed under a `States` section like so:
+```
+  TestFurniture:
+    Furniture:
+      Model: 1
+      DefaultState: <name>
+      States:
+        <name_2>:
+          Model: 2
+        <name_3>:
+          Model: 3
+```
+Each state can use any of the regular furniture options, and also `Lights: false` to turn light blocks off. When the `furnitureState` mechanic is called, the furniture will morph into the given state.
+
+The `DefaultState` (defaults to "DEFAULT") allows you to set the name of the base version of the furniture for referencing in mecahnics.
 
 Example Configuration
 ---------------------
