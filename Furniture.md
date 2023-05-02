@@ -14,12 +14,29 @@ All options are placed under a "Furniture" section on an item.
 - `Material` - The material of the furniture object.
 - `Model` - The CustomModelData ID of the furniture object.
 - `Health` - How many times a piece of furniture has to be punched within a short interval to break.
+- `CanRotate` - If the furniture can be rotated. Defaults to true.
+- `GlowingItem` - Whether the item should glow
+- `Color` - A hex code to color the furniture. Only works on colorable items.
+
+### Drops
+Furniture drops are defined under the furniture `Drops` section. This uses the standard MythicMobs drop table format.
+
+By default the furniture will drop itself when broken if there is no Drops field defined. You can make the furniture drop nothing by setting `Drops: []` or `DropSelf: false`
 
 ### Extra Blocks
 Furniture can be configured with several special extras that are placed in the world along with it:
-- Barrier Blocks
-- Light Blocks (with light level)
-- Seats (the closest seat is chosen when a player right-clicks the furniture)
+
+#### Barrier Blocks (in a `Barriers` list)
+    Barriers:
+    - 0,0,0
+
+#### Light Blocks (with light level)
+    Lights:
+    - 0,2,0 15
+
+#### Seats (the closest seat is chosen when a player right-clicks the furniture)
+    Seats:
+    - 0,0.9,0,0,0
 
 Extra blocks are configured from the perspective of an object placed when the player is facing **yaw = 0**, and are rotated accordingly depending on how the furniture is placed.
 
