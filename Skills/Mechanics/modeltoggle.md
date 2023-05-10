@@ -2,7 +2,7 @@
 Switches the item's CustomModelData value between two specified ones each time this mechanic is triggered
 
 ## Attributes
-| Attribute      | Aliases     | Description                                             | Default Value |
+| Attribute      | Aliases     | Description                                             | Default       |
 |----------------|-------------|---------------------------------------------------------|---------------|
 | model1         |             | The first CustomModelData value                         |               |
 | model2         |             | The second CustomModelData value                        |               |
