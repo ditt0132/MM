@@ -1,4 +1,4 @@
-## Mechanic: RemoveFurniture
+## Description
 Removes the furniture that casted the mechanic
 
 ## Attributes
