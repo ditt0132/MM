@@ -41,3 +41,9 @@ TestBlock:
   - sound{s=block.amethyst_block.place} @self ~onBlockPlace
   - sound{s=block.amethyst_block.break} @self ~onBlockBreak
 ```
+
+## WorldEdit Support
+You can place custom blocks using worldedit via the following syntax:
+```
+//set mythic:ItemName
+```
