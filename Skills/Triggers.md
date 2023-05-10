@@ -40,6 +40,7 @@ Crucible supports all triggers that generally make sense, and also adds a bunch 
 | onPickup       | When a player picks up a crucible item                                                                                                                                                                                                |
 | onHold         | When the player holds an item                                                                                                                                                                                                         |
 | onUnHeld      | When the player switches off the item from their hotbar                                                                                                                                                                               |
+| onFurnitureStateChange | When the [Furniture](/wikis/Furniture) changes state.                                                                                                                                                                               |
 
 
 Example Usages
