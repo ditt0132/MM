@@ -13,6 +13,7 @@ These mechanics are added by Crucible, and are meant to be used with players and
 | [AmmoGive](Skills/Mechanics/AmmoGive)                   | Gives the target player NBT Ammo             |
 | [AmmoReload](Skills/Mechanics/AmmoReload)               | Attempts to reload an item's ammo            |
 | [DealCustomDurability](/Skills/Mechanics/DealCustomDurability)| Deals damage or heals custom durability|
+| [FurnitureInventory](/Skills/Mechanics/furnitureinventory)| Opens the inventory of the Furniture       |
 | [InventoryClear](/Skills/Mechanics/InventoryClear)      | Clears the target's inventory                |                                            
 | [ModelSet](Skills/Mechanics/ModelSet)                   | Sets the calling item's model                |
 | [ModelSetSlot](Skills/Mechanics/ModelSetSlot)           | Sets the model of an item in the target slot |
