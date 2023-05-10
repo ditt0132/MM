@@ -11,3 +11,6 @@ Removes the furniture that casted the mechanic
   FurnitureSkills:
   - removefurniture{doDrops=true} @self ~onInteract
 ```
+
+## Aliases
+- [x] furnitureremove
