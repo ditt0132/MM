@@ -11,7 +11,7 @@ It is however **possible** to change the *name* of the inventory every time it i
 The number of slots of the inventory can be `9`,`18`,`27`,`36`,`45`,`54`.
 
 ## Attributes
-| Attribute      | Aliases     | Description                                             | Default Value |
+| Attribute      | Aliases     | Description                                             | Default       |
 |----------------|-------------|---------------------------------------------------------|---------------|
 | title          |             | The name displayed in the inventory        |The Display name of the Item|
 | size           |             | The number of slots of the inventory                    | 9             |
