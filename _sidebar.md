@@ -10,8 +10,6 @@
   * [Item Durability](CustomDurability)
   * [Custom Blocks](Custom-Blocks)
   * [Furniture](Furniture) 
-    * [Furniture Options](Furniture/Options)
-    * [Furniture States](Furniture-States)
   * [Crafting Recipes](Recipes)
   * [Custom Bags](Bags)
   * [Ammo System / Guns](Ammo)
