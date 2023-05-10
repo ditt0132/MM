@@ -8,3 +8,6 @@ These options are applicable to all items, and go under the Options field:
 | KeepOnDeath: [true/false]    | Players won't drop the item on death.                          |
 | PreventDropping: [number]    | Prevents the item from being dropped.                          |
 | Permission: [perm.node]      | Required perm node to have this item. If the player doesn't have the permission, it will be removed from their inventory when they attempt to use it (use permission conditions in skills if you just want to prevent skill usage).
+| Placeable: [true/false]      | Allows the item to be placed in the world                      |
+| PreventEnchanting: [true/false]| Prevents the item from being enchanted.                      |
+| PreventAnvil: [true/false]   | Prevents the item from being used in an anvil.                 |
