@@ -21,6 +21,7 @@ These mechanics are added by Crucible, and are meant to be used with players and
 | [RemoveFurnitureAt](Skills/Mechanics/removefurnitureat) | Removes the Furniture at the target location |
 | [ResetAttackCooldown](Skills/Mechanics/ResetAttackCooldown) | Resets the player's attack cooldown          |
 | [SetCrossbowCharged](Skills/Mechanics/SetCrossbowCharged) | Sets the state of the held crossbow's charge |
+| [SetFurnitureState](/Skills/Mechanics/setfurniturestate)| Sets the casting Furniture's state           |
 | [SetItemDisplay](/Skills/Mechanics/SetItemDisplay)      | Sets the item display name                   |
 | [InventoryClear](/Skills/Mechanics/InventoryClear)      | Clears the target's inventory                |                                            |
 | [SetLore](/Skills/Mechanics/SetLore)                | Sets the item's new lore                     |
