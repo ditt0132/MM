@@ -14,17 +14,17 @@ These mechanics are added by Crucible, and are meant to be used with players and
 | [AmmoReload](Skills/Mechanics/AmmoReload)               | Attempts to reload an item's ammo            |
 | [DealCustomDurability](/Skills/Mechanics/DealCustomDurability)| Deals damage or heals custom durability|
 | [FurnitureInventory](/Skills/Mechanics/furnitureinventory)| Opens the inventory of the Furniture       |
+| [FurnitureRemove](Skills/Mechanics/furnitureremove)     | Removes the casting Furniture                |
+| [FurnitureRemoveAt](Skills/Mechanics/furnitureremoveat) | Removes the Furniture at the target location |
+| [FurnitureState](/Skills/Mechanics/furniturestate)      | Sets the casting Furniture's state           |
 | [InventoryClear](/Skills/Mechanics/InventoryClear)      | Clears the target's inventory                |                                            
 | [ModelSet](Skills/Mechanics/ModelSet)                   | Sets the calling item's model                |
 | [ModelSetSlot](Skills/Mechanics/ModelSetSlot)           | Sets the model of an item in the target slot |
 | [ModelToggle](Skills/Mechanics/ModelToggle)             | Toggles the calling item's model             |
 | [ParseArmor](Skills/Mechanics/ParseArmor)               | Force a re-scan of the caster's armor        |
 | [ParseWeapon](Skills/Mechanics/ParseWeapon)             | Force a re-scan of the caster's weapon       |
-| [RemoveFurniture](Skills/Mechanics/removefurniture)     | Removes the casting Furniture                |
-| [RemoveFurnitureAt](Skills/Mechanics/removefurnitureat) | Removes the Furniture at the target location |
 | [ResetAttackCooldown](Skills/Mechanics/ResetAttackCooldown) | Resets the player's attack cooldown      |
 | [SetCrossbowCharged](Skills/Mechanics/SetCrossbowCharged)|Sets the state of the held crossbow's charge |
-| [SetFurnitureState](/Skills/Mechanics/setfurniturestate)| Sets the casting Furniture's state           |
 | [SetItemDisplay](/Skills/Mechanics/SetItemDisplay)      | Sets the item display name                   |
 | [SetLore](/Skills/Mechanics/SetLore)                    | Sets the item's new lore                     |
 | [UpdateLore](/Skills/Mechanics/UpdateLore)              | Reparses the item's lore config              |
