@@ -14,4 +14,4 @@ Sets the casting Furniture's [State](/Furniture#furniture-states) as the specifi
 ```
 
 ## Aliases
-- [x] furniturestate
+- [x] setfurniturestate
