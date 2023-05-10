@@ -88,7 +88,7 @@ If the Furniture should be glowing
 
 #### DropSelf
 If the Furniture should drop itself once broken
-<br>Defaults to `true` in most cases
+<br>Defaults to `true` in most cases and to `false` if some [`Drops`](#drops) have been specified
 ```yaml
   Furniture:
     DropSelf: false
@@ -180,6 +180,12 @@ Furniture drops are defined under the furniture `Drops` section. This uses the s
 By default the furniture will drop itself when broken if there is no Drops field defined. You can make the furniture drop nothing by setting `Drops: []` or `DropSelf: false`.
 <br>If `DropSelf` is set to `true` and some `Drops` have been specified, then both the Furniture and the Drops will be dropped.
 
+```yaml
+  Furniture:
+    Drops:
+    - oak_planks 4
+    - oak_log 2
+```
 
 ## Furniture States
 
