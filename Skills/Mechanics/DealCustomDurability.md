@@ -1,16 +1,12 @@
-Mechanic: DealCustomDurability
-================
+## Description 
+Modifies the custom durability of the held item.
 
-Modifies the held item durability.
-
-Attributes
-----------
+## Attributes
 | Attribute | Aliases |       Description         | Default |
-|:---------:|:-------:|:-------------------------:|:-------:|
-|   a       |         | Adds/Subtracts durability |         |
+|-----------|---------|---------------------------|---------|
+|   amount  | a       | Adds/Subtracts durability |   1     |
 
-Examples
---------
+## Examples
 A positive number will deal damage, a negative number will heal it.
 **Note:** Only works for custom durability.
 
@@ -27,3 +23,7 @@ MyItem:
     - dealcustomdurability{a=2} @Self ~onUse    # damages an item by 2 durability.
     - dealcustomdurability{a=-2} @Self ~onSwing # repairs 2 durability on an item.
 ```
+
+## Aliases
+  - [x] dealdura
+  - [x] customdura
