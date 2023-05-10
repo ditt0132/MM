@@ -13,6 +13,7 @@ These mechanics are added by Crucible, and are meant to be used with players and
 | [AmmoGive](Skills/Mechanics/AmmoGive)                   | Gives the target player NBT Ammo             |
 | [AmmoReload](Skills/Mechanics/AmmoReload)               | Attempts to reload an item's ammo            |
 | [DealCustomDurability](/Skills/Mechanics/DealCustomDurability)| Deals damage or heals custom durability|
+| [FurnitureColor](/Skills/Mechanics/furniturecolor)      | Sets the casting Furniture's color           |
 | [FurnitureInventory](/Skills/Mechanics/furnitureinventory)| Opens the inventory of the Furniture       |
 | [FurnitureRemove](Skills/Mechanics/furnitureremove)     | Removes the casting Furniture                |
 | [FurnitureRemoveAt](Skills/Mechanics/furnitureremoveat) | Removes the Furniture at the target location |
