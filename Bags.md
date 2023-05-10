@@ -1,5 +1,4 @@
-Custom Bags
------------
+## Custom Bags
 
 Crucible allows you to create custom bags. 
 Creating a bag is simple, all you need to do is give the Crucible Item a `BAG` type.
@@ -18,3 +17,4 @@ SMALL_BAG:
 
 - `Title` - inventory title of your custom bag. Defaults to the display name of your Crucible item.
 - `Size` - the inventory size of your custom bag. Size is limited to 9,18,27,36,45, and 54.
+- `SaveOnItemUpdate` - if the content of the inventory should be saved once the item Updates
