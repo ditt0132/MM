@@ -41,6 +41,7 @@ Crucible supports all triggers that generally make sense, and also adds a bunch 
 | onHold         | When the player holds an item                                                                                                                                                                                                         |
 | onUnHeld      | When the player switches off the item from their hotbar                                                                                                                                                                               |
 | onFurnitureStateChange | When the [Furniture](/wikis/Furniture) changes state. Despite the name, this is triggered every time the [SetFurnitureState](/Skills/Mechanics/setfurniturestate) mechanic is used, regardless of the state not actually changing                                                                                                                                                                            |
+| onBlockRotate | When the [Furniture](/wikis/Furniture) is rotated                                                    |
 
 
 Example Usages
