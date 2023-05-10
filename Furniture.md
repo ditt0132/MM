@@ -189,7 +189,7 @@ By default the furniture will drop itself when broken if there is no Drops field
 
 ## Furniture States
 
-Furniture States are other states that furniture can be swapped into using the [`furnitureState`](/Skills/Mechanics/furniturestate) mechanic. 
+Furniture States are other states that furniture can be swapped into using the [`SetFurnitureState`](/Skills/Mechanics/setfurniturestate) mechanic.
 
 This allows you to create dynamic furniture, such as:
 - Crops that grow 
