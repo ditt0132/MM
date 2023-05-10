@@ -9,6 +9,9 @@ Sets the casting Furniture's [State](/Furniture#furniture-states) as the specifi
 ## Examples
 ```yaml
   FurnitureSkills:
-  - setFurnitureState{state=OPEN} @self ~onInteract ?furnitureState{s=CLOSED}
-  - setFurnitureState{state=CLOSED} @self ~onInteract ?furnitureState{s=OPEN}
+  - furniturestate{state=OPEN} @self ~onInteract ?furnitureState{s=CLOSED}
+  - furniturestate{state=CLOSED} @self ~onInteract ?furnitureState{s=OPEN}
 ```
+
+## Aliases
+- [x] furniturestate
