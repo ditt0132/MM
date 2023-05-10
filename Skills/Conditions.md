@@ -10,6 +10,7 @@ These conditions are added by Crucible, and are meant to be used with players an
 | Conditions                                           | Description                                          |
 |------------------------------------------------------|------------------------------------------------------|
 | [EquipSlot](Skills/Conditions/EquipSlot)             | Matches the equipment slot the skill was called from |
+| [FurnitureState](Skills/Conditions/furnitureState)   | Checks if the target Furniture's is the specified one |
 | [ItemAmmo](Skills/Conditions/ItemAmmo)               | Matches how much ammo the calling item has           |
 | [MythicKeyId](Skills/Conditions/MythicKeyId)         | Matches the key ID the skill was called from         |
 | [CustomModelData](Skills/Conditions/custommodeldata) | Tests the custom model data the calling item has     |
