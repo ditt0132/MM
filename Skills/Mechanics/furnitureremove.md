@@ -13,4 +13,4 @@ Removes the furniture that casted the mechanic
 ```
 
 ## Aliases
-- [x] furnitureremove
+- [x] removefurniture
