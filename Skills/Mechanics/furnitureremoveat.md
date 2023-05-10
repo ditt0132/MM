@@ -11,3 +11,6 @@ Removes the furniture at the target location
   FurnitureSkills:
   - removefurnitureat{doDrops=true} @selflocation{xoffset=1} ~onInteract
 ```
+
+## Aliases
+- [x] removefurnitureat
