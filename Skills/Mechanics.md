@@ -1,4 +1,3 @@
-
 Crucible items support almost all MythicMobs base mechanics.
 
 [You can view those by clicking here here.](https://git.lumine.io/mythiccraft/MythicMobs/-/wikis/Skills/Mechanics/)
@@ -18,6 +17,7 @@ These mechanics are added by Crucible, and are meant to be used with players and
 | [ModelSet](Skills/Mechanics/ModelSet)                   | Sets the calling item's model                |
 | [ModelSetSlot](Skills/Mechanics/ModelSetSlot)           | Sets the model of an item in the target slot |
 | [ModelToggle](Skills/Mechanics/ModelToggle)             | Toggles the calling item's model             |
+| [RemoveFurniture](Skills/Mechanics/removefurniture)     | Removes the casting Furniture                |
 | [ResetAttackCooldown](Skills/Mechanics/ResetAttackCooldown) | Resets the player's attack cooldown          |
 | [SetCrossbowCharged](Skills/Mechanics/SetCrossbowCharged) | Sets the state of the held crossbow's charge |
 | [SetItemDisplay](/Skills/Mechanics/SetItemDisplay)      | Sets the item display name                   |
