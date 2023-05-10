@@ -13,8 +13,8 @@ The number of slots of the inventory can be `9`,`18`,`27`,`36`,`45`,`54`.
 ## Attributes
 | Attribute      | Aliases     | Description                                             | Default       |
 |----------------|-------------|---------------------------------------------------------|---------------|
-| title          |             | The name displayed in the inventory        |The Display name of the Item|
-| size           |             | The number of slots of the inventory                    | 9             |
+| title          | t           | The name displayed in the inventory        |The Display name of the Item|
+| size           | s           | The number of slots of the inventory                    | 9             |
 
 
 ## Examples
@@ -33,3 +33,6 @@ The number of slots of the inventory can be `9`,`18`,`27`,`36`,`45`,`54`.
     ]
     } @trigger ~onInteract
 ```
+
+## Aliases
+  - [x] openfurnitureinventory
