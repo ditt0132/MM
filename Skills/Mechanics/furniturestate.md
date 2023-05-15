@@ -8,9 +8,33 @@ Sets the casting Furniture's [State](/Furniture#furniture-states) as the specifi
 
 ## Examples
 ```yaml
+#ITEM CONFIG
+ExampleFurniture:
+  Id: STONE
+  Display: "Example Furniture"
+  Type: FURNITURE
+  Furniture:
+    Material: BRICK
+    DefaultState: CLOSED
+    States:
+      OPEN:
+        Model: 6
+      CLOSED:
+        Model: 7
   FurnitureSkills:
-  - furniturestate{state=OPEN} @self ~onInteract ?furnitureState{s=CLOSED}
-  - furniturestate{state=CLOSED} @self ~onInteract ?furnitureState{s=OPEN}
+  - skill{s=ExampleFurniture_SwitchState} @self ~onInteract
+```
+```yaml
+#SKILL CONFIG
+ExampleFurniture_SwitchState:
+  Conditions:
+  - furnitureState{s=CLOSED} orElseCast ExampleFurniture_Close
+  Skills:
+  - furniturestate{state=OPEN}
+
+ExampleFurniture_Close:
+  Skills:
+  - furniturestate{state=CLOSED}
 ```
 
 ## Aliases
