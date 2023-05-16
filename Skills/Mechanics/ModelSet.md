@@ -9,9 +9,9 @@ Sets the specified CustomModelData on the item the caster is holding
 ## Examples
 ```yaml
   Skills:
-  - setitemmodel{m=3} @self ~onUse
+  - modelset{m=3} @self ~onUse
 ```
 
 ## Aliases
   - [x] setmodel
-  - [x] modelset
+  - [x] setitemmodel
