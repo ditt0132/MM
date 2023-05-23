@@ -1,4 +1,7 @@
-1.6.0 (dev builds)
+1.7.0 (dev builds)
+=====
+
+1.6.0
 =====
 
 Highlights
