@@ -4,14 +4,22 @@
 Highlights
 ----------
 - Custom blocks now usable in all MM mechanics and conditions
+- Display entity furniture
 
 Furniture
 ---------
 ### Display Entities (1.19.4+)
 - Added support for DisplayEntity furniture with Furniture.Type option 
+- All display options are also usable in furniture states
 ```
   Furniture:
     Type: DISPLAY
+    Scale: 0.5,0.5,0.5 (size of the model, defaults to 0.5 to match itemframe sizing)
+    Transform: [FIXED/HEAD/GROUND/GUI/LEFT_HAND/RIGHT_HAND, defaults to FIXED]
+    Billboard: [FIXED/CENTER/VERTICAL/HORIZONTAL]
+    Brightness: [brightness]
+    InterpolationDelay: [delay before beginning interpolation]
+    InterpolationDuration: [seconds to interpolate scaling over]
 ```
 Type will default to DISPLAY on 1.19.4+ and ITEM_FRAME on earlier versions. DISPLAY should be backwards compatible with the default options. 
 
@@ -30,6 +38,17 @@ Chair:
 ```
 Defaults to 1x1 if the furniture has no barriers, or 0 if it does.
 
+### Timer Skills
+- Furniture can now use timer skills
+
+Mechanics
+---------
+### NEW: RemoveFurniture
+- Removes the furniture that called the mechanic
+
+### NEW: RemoveFurnitureAt
+- Removes a furniture at the target location
+
 Triggers
 --------
 - Added ~onPressF:HAND and ~onPressF:OFFHAND
@@ -43,6 +62,10 @@ Bug Fixes/Other
 - Fixed NPE in custom block loading with latest MM
 - Fixed obscure dupe involving giving items from console
 - Fixed several other potential dupe glitches
+- Fixed rotating furniture not preserving the furniture's state
+- Fixed `Furniture.CanRotate: false` not working
+- Fixed onSwing not triggering when you hit something
+- 
 
 1.5.0
 =====
