@@ -3,7 +3,7 @@ Crucible adds a simple ammo system to allow you to easily create guns that use o
 Configuring an Item
 -------------------
 The ammo system has its own configuration block on an item:
-```
+```yaml
 TestGun:
   Ammo:
     Enabled: TRUE
@@ -34,7 +34,7 @@ Example Item
 ------------
 
 Configured in an item file:
-```
+```yaml
 TestGun:
   Id: BLAZE_ROD
   Model: 10
@@ -56,7 +56,7 @@ TestGun:
 ```
 
 In a skills file:
-```
+```yaml
 TestGun-OutOfAmmo:
   Skills:
   - am{m="&c&lOut of Ammo"}
