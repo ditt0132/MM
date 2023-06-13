@@ -95,10 +95,10 @@ If the Furniture should drop itself once broken
 ```
 
 #### Color
-The Hex code used to set the Furniture's color. Only works on colorable items
+The RGB color for the furniture to use. Only works on colorable items
 ```yaml
   Furniture:
-    Color: #00e277
+    Color: 44,224,223
 ```
 
 #### Placement
