@@ -15,7 +15,7 @@ Added in v1.5.0 dev builds.
 
 Example Configuration
 ---------------------
-```
+```yaml
 TestRecipe:
   Id: GOLD_NUGGET
   Model: 5
