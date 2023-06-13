@@ -7,7 +7,7 @@ Crucible is an add-on for MythicMobs, and uses the same existing item system. Th
 Skills are added to items in a **Skills:** block, using the exact same syntax as mob skills.
 
 For example, this item would draw a line of fire to the location you're looking at when you right-click:
-```
+```yaml
 SpecialSword:
   Id: DIAMOND_SWORD
   Display: '&6A Sword with a Skill'
@@ -24,5 +24,10 @@ You can read more about the new toys Crucible adds for skills in the manual:
   * [Item Triggers](Skills/Triggers)
   * [Item Conditions](Skills/Conditions)
 ### Special Features
-  * [Ammo System / Making Guns](Ammo)
   * [Special Options](Options)
+  * [Custom Durability](CustomDurability)
+  * [Custom Blocks](Custom-Blocks)
+  * [Furniture](Furniture)
+  * [Crafting Recipes](Recipes)
+  * [Custom Bags](Bags)
+  * [Ammo System / Making Guns](Ammo)
