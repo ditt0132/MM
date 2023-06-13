@@ -63,7 +63,7 @@ The amount of times a piece of Furniture can be hit within a short timespan befo
 #### Hitbox
 The dimension of the Interaction Entity that will make up the hitbox of the Furniture. The hitbox will not be solid or repel entities, but can be interacted with.
 <br>Defaults to `1`x`1` if not barriers are present, or `0`x`0` if they are
-```
+```yaml
   Furniture:
     Hitbox:
       Height: 1
