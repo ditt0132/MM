@@ -2,9 +2,9 @@
 Removes the furniture that casted the mechanic
 
 ## Attributes
-| Attribute      | Aliases     | Description                                             | Default |
+| Attribute      | Aliases     | Description                                             | Default  |
 |----------------|-------------|---------------------------------------------------------|----------|
-| doDrops        |             | If the Furniture should drops its Drops once removed    | false    |
+| doDrops        |             | If the Furniture should drop its Drops once removed     | false    |
 
 ## Examples
 ```yaml
