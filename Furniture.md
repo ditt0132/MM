@@ -139,9 +139,9 @@ A light block and a barrier **cannot be placed** on the same spot.
 ```yaml
   Furniture:
     Lights:
-    - -1,0,0 # Will be placed one block "to the right" the base of the Furniture, based on the Furniture's rotation
-    - 0,-1,0 # Will be placed one block below the base of the Furniture
-    - 0,0,-1 # Will be placed one block "backward" the base of the Furniture, based on the Furniture's rotation 
+    - -1,0,0 15 # Will be placed one block "to the right" the base of the Furniture, based on the Furniture's rotation with light level 15.
+    - 0,-1,0 15 # Will be placed one block below the base of the Furniture
+    - 0,0,-1 15 # Will be placed one block "backward" the base of the Furniture, based on the Furniture's rotation 
 ```
 
 #### Seats
