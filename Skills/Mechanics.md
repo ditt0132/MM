@@ -25,6 +25,7 @@ These mechanics are added by Crucible, and are meant to be used with players and
 | [ParseArmor](Skills/Mechanics/ParseArmor)               | Force a re-scan of the caster's armor        |
 | [ParseWeapon](Skills/Mechanics/ParseWeapon)             | Force a re-scan of the caster's weapon       |
 | [ResetAttackCooldown](Skills/Mechanics/ResetAttackCooldown) | Resets the player's attack cooldown      |
+| [SetCompassLocation](Skills/Mechanics/SetCompassLocation)|Sets the location a compass points to|
 | [SetCrossbowCharged](Skills/Mechanics/SetCrossbowCharged)|Sets the state of the held crossbow's charge |
 | [SetItemDisplay](/Skills/Mechanics/SetItemDisplay)      | Sets the item display name                   |
 | [SetLore](/Skills/Mechanics/SetLore)                    | Sets the item's new lore                     |
