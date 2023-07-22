@@ -1,1 +1,7 @@
-Crucible does not currently add any custom targeters, but some are planned!
+### Meta Targeters
+
+| Targeter | Shorthand | Description                                                                     |
+|----------|-----------|---------------------------------------------------------------------------------|
+| @Furniture                                                                                                                                                                           |                                                                                                                                                                        | Targets furniture found at the inherited locations.
+
+More targeters are planned.
