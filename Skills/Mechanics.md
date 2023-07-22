@@ -37,17 +37,15 @@ Those mechanics are the ones that deals with custom [Furniture](Furniture). They
 | [FurnitureInventory]    | Opens the inventory of the Furniture                                         |
 | [FurnitureRemove]       | Removes the casting Furniture                                                |
 | [FurnitureRemoveAt]     | Removes the Furniture at the target location                                 |
+| [FurnitureSetAt]        | Sets a furniture at the target location                                      |
 | [FurnitureState]        | Sets the casting Furniture's state                                           |
+
+
 
   [AmmoConsume]: Skills/Mechanics/AmmoConsume
   [AmmoGive]: Skills/Mechanics/AmmoGive      
   [AmmoReload]: Skills/Mechanics/AmmoReload  
   [DealCustomDurability]: /Skills/Mechanics/DealCustomDurability
-  [FurnitureColor]: /Skills/Mechanics/furniturecolor
-  [FurnitureInventory]: /Skills/Mechanics/furnitureinventory
-  [FurnitureRemove]: Skills/Mechanics/furnitureremove    
-  [FurnitureRemoveAt]: Skills/Mechanics/furnitureremoveat
-  [FurnitureState]: /Skills/Mechanics/furniturestate     
   [InventoryClear]: /Skills/Mechanics/InventoryClear                                              
   [ModelSet]: Skills/Mechanics/ModelSet                  
   [ModelSetSlot]: Skills/Mechanics/ModelSetSlot          
@@ -60,3 +58,10 @@ Those mechanics are the ones that deals with custom [Furniture](Furniture). They
   [SetItemDisplay]: /Skills/Mechanics/SetItemDisplay 
   [SetLore]: /Skills/Mechanics/SetLore               
   [UpdateLore]: /Skills/Mechanics/UpdateLore
+
+  [FurnitureColor]: /Skills/Mechanics/furniturecolor
+  [FurnitureInventory]: /Skills/Mechanics/furnitureinventory
+  [FurnitureRemove]: Skills/Mechanics/furnitureremove    
+  [FurnitureRemoveAt]: Skills/Mechanics/furnitureremoveat
+  [FurnitureSetAt]: Skills/Mechanics/FurnitureSetAt
+  [FurnitureState]: /Skills/Mechanics/furniturestate
