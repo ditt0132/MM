@@ -173,6 +173,7 @@ If multiple seats are created, when a player right clicks on a furniture the clo
 
 #### Item_Frame
 - `GlowingFrame` - Whether the frame should be a glowing frame which renders the furniture at 100% brightness at all times. Defaults to false.
+- `Diagonalable` - Whether the furniture should be able to rotate in 45 degree increments rather than 90. Defaults to false.
 
 ## Drops
 Furniture drops are defined under the furniture `Drops` section. This uses the standard MythicMobs drop table format.
