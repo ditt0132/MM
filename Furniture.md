@@ -114,6 +114,13 @@ Defaults to `FLOOR`
     Placement: FLOOR
 ```
 
+#### Diagonalable
+Whether or not furniture can be rotated at 45 degree angles instead of 90 degree angles. Defaults to false.
+```yaml
+  Furniture:
+    Diagonalable: true
+```
+
 #### Barriers
 A list of relative coordinates where barriers will be placed. Useful to make a solid hitbox for the Furniture. Can be used with the `Hitbox` Option, and if both are present then both the Hitbox and the Barrier will act as the Furniture's Hitbox
 - The `x` is left/right
@@ -173,7 +180,6 @@ If multiple seats are created, when a player right clicks on a furniture the clo
 
 #### Item_Frame
 - `GlowingFrame` - Whether the frame should be a glowing frame which renders the furniture at 100% brightness at all times. Defaults to false.
-- `Diagonalable` - Whether the furniture should be able to rotate in 45 degree increments rather than 90. Defaults to false.
 
 ## Drops
 Furniture drops are defined under the furniture `Drops` section. This uses the standard MythicMobs drop table format.
