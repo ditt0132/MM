@@ -22,6 +22,9 @@ The number of slots of the inventory can be `9`,`18`,`27`,`36`,`45`,`54`.
   FurnitureSkills:
   - FurnitureInventory{title="A Chest! more or less...";size=27} @trigger ~onInteract
 ```
+
+##
+In this example you can see how it is possible to change the inventory name, since an inventory is bound to the casting furniture, and not its name
 ```yaml
   FurnitureSkills:
   - randomskill{s=
