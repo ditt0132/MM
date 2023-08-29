@@ -178,6 +178,12 @@ If multiple seats are created, when a player right clicks on a furniture the clo
 - `Transform` - How the item is rendered. Defaults to `FIXED` which matches item frame rendering. Can also be `GROUND`, `GUI`, `HEAD`, `FIRSTPERSON_LEFTHAND`, `FIRSTPERSON_RIGHTHAND`, `THIRDPERSON_LEFTHAND`, `THIRDPERSON_RIGHTHAND`
 - `Scale` - Changes the scaling sizes of the displayed item. Defaults to `.5,.5,.5` which matches item frame rendering. 
 
+```yaml
+  Furniture:
+    Height: 2
+    Width: 2
+    Scale: 2,2,2
+```
 #### Item_Frame
 - `GlowingFrame` - Whether the frame should be a glowing frame which renders the furniture at 100% brightness at all times. Defaults to false.
 
