@@ -180,6 +180,7 @@ If multiple seats are created, when a player right clicks on a furniture the clo
 
 ```yaml
   Furniture:
+    Type: DISPLAY
     Height: 2
     Width: 2
     Scale: 2,2,2
