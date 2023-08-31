@@ -22,7 +22,7 @@
 
 ##### New Placeholders
   * [Placeholders](Placeholders)
-  * [Placeholders.yml](placeholdersyml)
+  * [Placeholders.yml](placeholders.yml)
 
 <div align="center" width="100px">
 <a href="https://bisecthosting.com/mythiccraft">
