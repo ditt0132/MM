@@ -20,6 +20,9 @@
   * [Item Triggers](Skills/Triggers)
   * [Item Conditions](Skills/Conditions)
 
+##### New Placeholders
+  * [Placeholders](Placeholders)
+
 <div align="center" width="100px">
 <a href="https://bisecthosting.com/mythiccraft">
 <img src="https://www.bisecthosting.com/partners/custom-banners/fcbe6cdc-f647-4270-8a5c-b33b91617613.png" width="200px" height="150px" />
