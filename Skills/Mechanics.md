@@ -24,8 +24,8 @@ These mechanics are added by Crucible, and are meant to be used with players and
 | [SetCrossbowCharged]    |Sets the state of the held crossbow's charge                                  |
 | [SetItemDisplay]        | Sets the item display name                                                   |
 | [SetLore]               | Sets the item's new lore                                                     |
+| [SetNBT]               | Sets the item's NBT keys                                                     |
 | [UpdateLore]            | Reparses the item's lore config                                              |
-
 
 Furniture Mechanics
 -------------------
@@ -57,6 +57,7 @@ Those mechanics are the ones that deals with custom [Furniture](Furniture). They
   [SetCrossbowCharged]: Skills/Mechanics/SetCrossbowCharged
   [SetItemDisplay]: /Skills/Mechanics/SetItemDisplay 
   [SetLore]: /Skills/Mechanics/SetLore               
+  [SetNBT]: /Skills/Mechanics/SetItemNBT
   [UpdateLore]: /Skills/Mechanics/UpdateLore
 
   [FurnitureColor]: /Skills/Mechanics/furniturecolor
