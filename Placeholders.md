@@ -13,7 +13,7 @@ Skills:
   - message{m="<caster.item.nbt.TestKey|Unknown>"} @self ~onSwing
   - message{m="<caster.item.hand.nbt.Some.Other_Key|5>"} @self ~onSwing
 ```
-Put the default value after "|" inside the placeholder for when the value is undefined.
+Put a value to use after "|" inside the placeholder to provide a default when the value is undefined.
 
 |         Caster Placeholder         | Function                                                          |
 |:----------------------------------:|-------------------------------------------------------------------|
