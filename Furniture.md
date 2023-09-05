@@ -175,7 +175,7 @@ If multiple seats are created, when a player right clicks on a furniture the clo
 #### Display
 - `Height` - The height of the display entity used for rendering. Defaults to 1.
 - `Width` - The width of the display entity used for rendering. Defaults to 1.
-- `Billboard` - `FIXED`, `CENTER`, `HORIZONRAL`, `VERTICAL`
+- `Billboard` - `FIXED`, `CENTER`, `HORIZONTAL`, `VERTICAL`
 - `Brightness` - How bright the object is. Defaults to max.
 - `InterpolationDelay` - The interpolation delay when the model changes.
 - `InterpolationDuration` - The duration over which the model changes (useful for state changes)
