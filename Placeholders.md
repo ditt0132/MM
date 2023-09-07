@@ -31,6 +31,10 @@ These placeholders will return whatever attribute of the item that caused the sk
 |:--------------------:|----------------------------------------------------------------------------------------|
 |    <trigger.item.hand.nbt.KEY>    | Returns the specified NBT key of the trigger's hand item.                                    |
 
+**Stat Placeholders**
+-----------------
+These placeholders will return stat information.
+
 -----------------
 | Stat Placeholders | Function                                                                               |
 |:--------------------:|----------------------------------------------------------------------------------------|
