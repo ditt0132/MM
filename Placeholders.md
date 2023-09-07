@@ -1,6 +1,3 @@
-# Placeholders
-------------
-
 These are all of the placeholders MythicCrucible provides.
 
 
