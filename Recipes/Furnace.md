@@ -14,12 +14,10 @@ ExampleItem:
       Type: FURNACE
       Amount: 1
       CookingTime: 400
-      Ingredients:
-      - apple
-    BLASTINGM:
+      Ingredient: APPLE
+    BLASTING:
       Type: BLASTING
       Amount: 1
       CookingTime: 200
-      Ingredients:
-      - apple
+      Ingredient: APPLE
 ```
