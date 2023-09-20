@@ -13,6 +13,7 @@
   * [Crafting Recipes](Recipes)
   * [Custom Bags](Bags)
   * [Ammo System / Guns](Ammo)
+  * [Dynamic Lore Generation - WIP](Dynamic-Lore-Generation)
 
 ##### New Mechanics
   * [Item Mechanics](Skills/Mechanics)
