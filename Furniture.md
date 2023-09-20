@@ -226,7 +226,7 @@ States are placed under a `States` section like so:
         <name_3>:
           Model: 3
 ```
-Each state can use any of the regular furniture options, and also `Lights: false` to turn light blocks off. When the `furnitureState` mechanic is called, the furniture will morph into the given state.
+Each state can use the `Model`furniture options, and also `Lights: false` to turn light blocks off and `GlowingItem: false` to turn the glowing itemframe off, if present. When the `furnitureState` mechanic is called, the furniture will morph into the given state.
 
 The `DefaultState` (defaults to "DEFAULT") allows you to set the name of the base version of the furniture for referencing in mecahnics.
 
