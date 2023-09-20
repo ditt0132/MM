@@ -37,7 +37,25 @@ Note that `Description` is used as a placeholder in the `BasicWeaponTest`'s `<lo
 
 ## Lore Placeholders
 
-The `<placeholder.*>` placeholders in the above example are referencing the examples provided from the new [`placeholders.yml`](TODO:LINK), which can also be used.
+The `<placeholder.*>` placeholders in the above example are referencing the examples provided from the new `placeholders.yml`, which can also be used:
+
+```yml
+TestPlaceholder: '&6TeSt PlAceHolDer'
+TestConditionalPlaceholder:
+  Day:
+    Conditions:
+    - day
+    Value: "it is day"
+  Night:
+    Conditions:
+    - night
+    Value: "it is night"
+  Default: "it is nothing apparently"
+TestRandomPlaceholder:
+- red
+- green
+- blue
+```
 
 
 ## Other Information about Lore Templates
