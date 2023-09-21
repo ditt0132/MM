@@ -60,7 +60,14 @@ TestRandomPlaceholder:
 
 ## Other Information about Lore Templates
 
-- Every node under Lore other than `Template` will be passed to the template as a `<lore.*>` placeholder (where `*` is the node you specify.)
+- Every node under Lore other than `Template` will be passed to the template as a `<lore.*>` placeholder (where `*` is the node you specify). Example: 
+```yaml
+  Lore:
+    Template: BasicWeaponTest
+    Rarity: "<gray>Common"
+
+# <lore.Rarity> would return Common in this case
+```
 
 - Templates can use any other applicable placeholders supported by drop tables.
 
