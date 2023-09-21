@@ -21,6 +21,7 @@ Manual
   * [Creating Custom Bags](Bags)
   * [Item Durability](CustomDurability)
   * [Using with MMOItems](MMOItems)
+  * [Dynamic Lore Generation - WIP](Dynamic-Lore-Generation)
 ### New Mechanics
   * [Item Mechanics](Skills/Mechanics)
   * [Item Targeters](Skills/Targeters)
