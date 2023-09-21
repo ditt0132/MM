@@ -13,6 +13,7 @@ Manual
 * [FAQ / Common Issues](FAQ)
 
 ### Usage
+  * [[Configuration]]
   * [[Installation]]
   * [Creating Custom Items](Usage)
   * [Creating Custom Blocks](Custom-Blocks)
