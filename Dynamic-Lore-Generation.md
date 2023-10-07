@@ -71,7 +71,7 @@ TestRandomPlaceholder:
 
 - Templates can use any other applicable placeholders supported by drop tables.
 
-- A line with `<lore.stats>` will be iterated and replicated for each stat using the tooltip formats configured in [`stats.yml`](TODO:LINK).
+- A line with `<lore.stats>` will be iterated and replicated for each stat using the tooltip formats configured in [`stats.yml`](https://git.lumine.io/mythiccraft/MythicMobs/-/wikis/Stats).
 
 - More features for this are planned as well.
 
