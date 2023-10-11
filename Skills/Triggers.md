@@ -42,8 +42,8 @@ Crucible supports all triggers that generally make sense, and also adds a bunch 
 | onUnHeld      | When the player switches off the item from their hotbar                                                                                                                                                                               |
 | onFurnitureStateChange | When the [Furniture](/wikis/Furniture) changes state. Despite the name, this is triggered every time the [SetFurnitureState](/Skills/Mechanics/setfurniturestate) mechanic is used, regardless of the state not actually changing                                                                                                                                                                            |
 | onBlockRotate | When the [Furniture](/wikis/Furniture) is rotated                                                    |
-| onJump        | When the Player jumps                                                    |
-
+| onJump        | When the Player jumps                                                                                                                                                                            |
+| onPaint       | When a [Paint Brush](Paint-Brush) paints a furniture                                                                                                                                                                            |
 
 Example Usages
 --------
