@@ -1,8 +1,7 @@
 These are all of the placeholders MythicCrucible provides.
 
 
-Caster Placeholders
-------------------
+## Caster Placeholders
 These placeholders will return whatever attribute of the caster that is called.
 
 ```yaml
@@ -22,17 +21,21 @@ Put a value to use after "|" inside the placeholder to provide a default when th
 |      <caster.item.legs.nbt.KEY>              | Returns the specified NBT key of the caster's head item.                               |
 |      <caster.item.feet.nbt.KEY>              | Returns the specified NBT key of the caster's feet item.                               |
 
-**Trigger Placeholders**
------------------
-These placeholders will return whatever attribute of the item that caused the skill to happen.
 
------------------
+## Trigger Placeholders
+These placeholders will return whatever attribute of the item that caused the skill to happen.
 | Trigger Placeholders | Function                                                                               |
 |:--------------------:|----------------------------------------------------------------------------------------|
 |    <trigger.item.hand.nbt.KEY>    | Returns the specified NBT key of the trigger's hand item.                                    |
 
-**Stat Placeholders**
------------------
+## Item Placeholders
+These placeholders will return information related to the item that called the skill
+|         Item Placeholder           | Function                                                          |
+|:----------------------------------:|-------------------------------------------------------------------|
+| <item.color.hex>                   | Returns the hex color of the item that called the skill           |
+
+
+## Stat Placeholders
 These placeholders will return stat information.
 
 -----------------
