@@ -10,6 +10,7 @@
   * [Item Durability](CustomDurability)
   * [Custom Blocks](Custom-Blocks)
   * [Furniture](Furniture) 
+    * [Paint Brush](Paint-Brush)
   * [Crafting Recipes](Recipes)
   * [Custom Bags](Bags)
   * [Ammo System / Guns](Ammo)
