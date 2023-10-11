@@ -106,7 +106,7 @@ The RGB color for the furniture to use. Only works on colorable items
 ```
 
 #### Colorable
-If a furniture can be colored by a [Paint Brush](Paint-Brush). . Only works on colorable items
+If a furniture can be colored by a [Paint Brush](Paint-Brush). Only works on colorable items
 ```yaml
   Furniture:
     Colorable: true
