@@ -105,6 +105,13 @@ The RGB color for the furniture to use. Only works on colorable items
     Color: 44,224,223
 ```
 
+#### Colorable
+If a furniture can be colored by a [Paint Brush](Paint-Brush). . Only works on colorable items
+```yaml
+  Furniture:
+    Colorable: true
+```
+
 #### Placement
 Where the Furniture is meant to be placed:
   - `FLOOR` - The item is to be placed like a block, on the ground or off the side face of a block
