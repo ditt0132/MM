@@ -12,24 +12,28 @@ Manual
 * [[Commands and Permissions]]
 * [FAQ / Common Issues](FAQ)
 
-### Usage
+##### Usage
   * [[Installation]]
-  * [Creating Custom Items](Usage)
-  * [Creating Custom Blocks](Custom-Blocks)
-  * [Creating Furniture](Furniture)
-  * [Creating Crafting Recipes](Recipes)
-  * [Creating Custom Bags](Bags)
+  * [Item Options](Options)
+  * [Item Skills](Usage)
   * [Item Durability](CustomDurability)
-  * [Using with MMOItems](MMOItems)
+  * [Custom Blocks](Custom-Blocks)
+  * [Furniture](Furniture) 
+    * [Paint Brush](Paint-Brush)
+  * [Crafting Recipes](Recipes)
+  * [Custom Bags](Bags)
+  * [Ammo System / Guns](Ammo)
   * [Dynamic Lore Generation - WIP](Dynamic-Lore-Generation)
-### New Mechanics
+
+##### New Mechanics
   * [Item Mechanics](Skills/Mechanics)
   * [Item Targeters](Skills/Targeters)
   * [Item Triggers](Skills/Triggers)
   * [Item Conditions](Skills/Conditions)
-### Other Features
-  * [Ammo System / Making Guns](Ammo)
-  * [Special Options](Options)
+
+##### New Placeholders
+  * [Placeholders](Placeholders)
+  * [Placeholders.yml](placeholders.yml)
 
 
 Planned Features
