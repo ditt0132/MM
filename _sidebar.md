@@ -15,6 +15,7 @@
   * [Custom Bags](Bags)
   * [Ammo System / Guns](Ammo)
   * [Dynamic Lore Generation - WIP](Dynamic-Lore-Generation)
+  * [ResourcePack Generator - WIP](ResourcePack-Generator)
 
 ##### New Mechanics
   * [Item Mechanics](Skills/Mechanics)
