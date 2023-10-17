@@ -8,10 +8,11 @@ The Generation logic will:
   - If it's a bbmodel it will automatically extract the textures, mcmeta, and other relevant data
   - Will generate any necessary atlases
   - The Generation fields also work on furniture and furniture states
+  - export a resource pack ready to merge with your own in `Plugins/MythicMobs/resourcepack.zip`.
 
 
 # Usage
-This can be done via the use of the `/crucible generate` command
+This can be done via the use of the `/mythicmobs items generate` command
 
 
 # Packs
