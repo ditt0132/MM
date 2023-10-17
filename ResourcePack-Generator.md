@@ -10,6 +10,7 @@ The Generation logic will:
   - The Generation fields also work on furniture and furniture states
   - export a resource pack ready to merge with your own in `Plugins/MythicMobs/resourcepack.zip`.
 
+And all of the generated files will be put into the `Generation/` folder inside the `MythicMobs` main directory (`../plugins/MythicMobs/Generation/`).
 
 # Usage
 This can be done via the use of the `/mythicmobs items generate` command
