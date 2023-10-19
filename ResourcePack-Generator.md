@@ -4,8 +4,9 @@ Crucible can be used to automatically generate some assets from item configurati
 
 
 The Generation logic will:
-  -  auto-detect if the path points to a json or bbmodel file.
+  - Auto-detect if the path points to a `.json` or `.bbmodel` file.
   - If it's a bbmodel it will automatically extract the textures, mcmeta, and other relevant data
+  - If nether are found, it will check for a `.png` in the textures folder and generate the item as a regular 2d sprite
   - Will generate any necessary atlases
   - The Generation fields also work on furniture and furniture states
   - export a resource pack ready to merge with your own in `Plugins/MythicMobs/resourcepack.zip`.
