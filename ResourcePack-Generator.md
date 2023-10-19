@@ -9,7 +9,7 @@ The Generation logic will:
   - If nether are found, it will check for a `.png` in the textures folder and generate the item as a regular 2d sprite
   - Will generate any necessary atlases
   - The Generation fields also work on furniture and furniture states
-  - export a resource pack ready to merge with your own in `Plugins/MythicMobs/resourcepack.zip`.
+  - Export a resource pack ready to merge with your own in `Plugins/MythicMobs/Generation/resource_pack.zip`.
 
 And all of the generated files will be put into the `Generation/` folder inside the `MythicMobs` main directory (`../plugins/MythicMobs/Generation/`).
 
