@@ -37,10 +37,40 @@ If there are multiple numbered sounds, it will add those all as random options t
 
 All assets are generated in the `mythic:` namespace to avoid conflicts, including with custom blocks now (the sound mechanic will automatically detect these sounds so adding it manually isn't necessary)
 
-## Configure the Items
-Generation settings are configured on the item. If no textures are specified, it will attempt to read the model and derive the textures from that.
+## Basic Item Configuration
+Generation settings are configured on the item in the `Generation` field/section.
 
-## Example Usage
+The most basic way of doing this only requires you to set the Generation field like so:
+```
+EmeraldSword:
+  Material: DIAMOND_SWORD
+  Model: 1
+  Generation: item/emerald_sword
+```
+This will do the following:
+- Check `Pack/Assets/models` for `item/emerald_sword.bbmodel` or `item/emerald_sword.json`
+- If neither of those exist, it will check `Pack/Assets/textures` for `item/emerald_sword.png`
+```
+...so by setting only the Generation field, the generator will auto-detect between the 3 different options for custom items: a .bbmodel model, a .json model, or a regular sprite image.
+
+If the model is a `.bbmodel` file, your work is done! The generator will extract the textures and mcmeta files for you automatically. However, if you are using a `.json` model, the generator will read the textures from the .json file and look for them in the `Pack/Assets/textures` folder (similar to how a resource pack works) and use those.
+
+The Material and CustomModelId of the Mythic item will be used for generating the pack.
+
+## Advanced Item Configuration
+Generation supports other options as well for more advanced usage. 
+```
+EmeraldSword:
+  Material: DIAMOND_SWORD
+  Model: 1
+  Generation:
+    Model: item/emerald_sword   # The same as using Generation: [model]
+    Parent: some/parent
+    Textures:
+    - override/texture
+```
+
+## Examples
 
 ### Furniture
 
