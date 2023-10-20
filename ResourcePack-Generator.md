@@ -50,7 +50,7 @@ EmeraldSword:
 This will do the following:
 - Check `Pack/Assets/models` for `item/emerald_sword.bbmodel` or `item/emerald_sword.json`
 - If neither of those exist, it will check `Pack/Assets/textures` for `item/emerald_sword.png`
-```
+
 ...so by setting only the Generation field, the generator will auto-detect between the 3 different options for custom items: a .bbmodel model, a .json model, or a regular sprite image.
 
 If the model is a `.bbmodel` file, your work is done! The generator will extract the textures and mcmeta files for you automatically. However, if you are using a `.json` model, the generator will read the textures from the .json file and look for them in the `Pack/Assets/textures` folder (similar to how a resource pack works) and use those.
