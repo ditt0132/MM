@@ -2,17 +2,6 @@
 Shaped recipes require the items to be in a certain shape in the crafting table. Note that in vanilla mode, recipes are automatically mirrored.
 
 
-## Super and Mega Workbenches
-You can make recipes that takes up to a 6x6 grid in space.  
-To be able to use any such recipe, you will have to access the `super` or `mega` workbenches (via the use of the `/superworkbench` and `/megaworkbench` commands) whose size is, respectively, of `5x5` and `6x6`.  
-
-
-| Workbench | Size | Command                   |
-| --------- | ---- | ------------------------- |
-| super     | 5x5  | `/superworkbench`, `/swb` |
-| mega      | 6x6  | `/megaworkbench`, `/mwb`  |
-
-
 ## Configuration
 Example using a 2x2 crafting grid
 ```yaml
