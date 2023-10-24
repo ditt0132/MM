@@ -12,6 +12,7 @@
   * [Furniture](Furniture) 
     * [Paint Brush](Paint-Brush)
   * [Crafting Recipes](Recipes)
+    * [Mega Workbenches](Recipes/Shaped#super-and-mega-workbenches)
   * [Custom Bags](Bags)
   * [Ammo System / Guns](Ammo)
   * [Dynamic Lore Generation - WIP](Dynamic-Lore-Generation)
