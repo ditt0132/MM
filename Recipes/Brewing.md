@@ -1,4 +1,4 @@
-Furnace Recipes
+Brewing Recipes
 -----------------
 
 Brewing type recipes go inside a brewing stand. The Ingredient item goes in the top slot of the brewing stand with the InputItem going in one of the 3 bottom slots, the InputItem will be transformed into the Mythic Item.
