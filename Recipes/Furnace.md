@@ -3,8 +3,10 @@ Furnace Recipes
 
 "Furnace" type recipes, including FURNACE, BLASTING, CAMPFIRE, SMOKER, etc all use the same options, with the only difference being the type of workstation required.
 
+CookingTime represents the time it takes an item to cook in ticks.
+
 ## Configuration
-```
+```yaml
 ExampleItem:
   Id: GOLD_NUGGET
   Model: 1
