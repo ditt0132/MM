@@ -133,7 +133,7 @@ CopperHelmet:
   Model: 10
   # ^^^ The CustomModelData ID for the Material to use.
   # In this case, the model generated will be 
-  # CHAINMAIL_HELMETwith a CustomModelData ID of 10.
+  # CHAINMAIL_HELMET with a CustomModelData ID of 10.
   Display: "<green>Copper Helmet"
   Generation:
     # vvv Texture is the inventory icon of your armor.
@@ -148,7 +148,8 @@ CopperHelmet:
 ```
 
 config-generation.yml used for this example:
-```
+
+```yml
   CustomArmor:
     Trims:
       Enabled: true
