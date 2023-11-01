@@ -145,3 +145,18 @@ CopperHelmet:
     #     copper_layer_2.png # BOTTOM PART - (keep in mind, you must use layer_1 and layer_2)
     Armor:
       Texture: armor/copper
+```
+
+config-generation.yml used for this example:
+```
+  CustomArmor:
+    Trims:
+      Enabled: true
+      GenerateDataPack: true
+      HideBaseArmor:
+      - CHAINMAIL
+    Optifine:
+      Enabled: false
+    CoreShaders:
+      Enabled: false
+```
