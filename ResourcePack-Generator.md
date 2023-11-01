@@ -124,3 +124,24 @@ GolfPutter:
     Texture: block/stars1
     # The texture here will default to a generic block with the texture on all sides.
 ```
+
+### Armor Trims 
+
+```yml
+CopperHelmet:
+  Material: CHAINMAIL_HELMET
+  Model: 10
+  # ^^^ The CustomModelData ID for the Material to use.
+  # In this case, the model generated will be 
+  # CHAINMAIL_HELMETwith a CustomModelData ID of 10.
+    Display: "<green>Copper Helmet"
+  Generation:
+    # vvv Texture is the inventory icon of your armor.
+    Texture: item/armor/copper_helmet
+    # vvv Armor references to the actual armor on the entity.
+    #     Regarding the armor texture, it is based on 2 files, which
+    #     should be named as the follows (based on copper armor):
+    #     copper_layer_1.png # TOP PART
+    #     copper_layer_2.png # BOTTOM PART - (keep in mind, you must use layer_1 and layer_2)
+    Armor:
+      Texture: armor/copper
