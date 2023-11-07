@@ -79,6 +79,39 @@ EmeraldSword:
     - override/texture
 ```
 
+
+## Special Options
+Specific item types can have further special options to assign to every specific state they can have a different texture/model.
+
+The value is the same as normal - can be a bbmodel or json in the models folder, or a png in the textures folder to generate a sprite.
+
+- `Pulling` - for bows and crossbows
+  - You can specify the pull after the texture: `item/bow/dirtbow_pulling_1 0.5`
+  - If pull values aren't specified, vanilla defaults will be used if 3 entries are supplied. For more or less, it will interpolate more steps to try and to make them fit smoothly
+- `Charged` - for crossbows
+- `Firework` - for crossbows
+- `Casting` - for fishing rods
+- `Blocking` - for shields
+
+```yaml
+DonutBow:
+  Material: BOW
+  Generation:
+    Model: item/bows/donut_bow
+    Pulling:
+    - item/bows/donut_bow_pulling_0
+    - item/bows/donut_bow_pulling_1
+    - item/bows/donut_bow_pulling_2
+```
+
+```yaml
+TortoiseShield:
+  Material: SHIELD
+  Generation:
+    Model: item/shields/tortoise_shield
+    Blocking: item/shields/tortoise_shield_blocking
+```
+
 # Examples
 
 ## Furniture
