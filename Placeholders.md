@@ -24,9 +24,9 @@ Put a value to use after "|" inside the placeholder to provide a default when th
 
 ## Trigger Placeholders
 These placeholders will return whatever attribute of the item that caused the skill to happen.
-| Trigger Placeholders | Function                                                                               |
-|:--------------------:|----------------------------------------------------------------------------------------|
-|    <trigger.item.hand.nbt.KEY>    | Returns the specified NBT key of the trigger's hand item.                                    |
+|         Trigger Placeholder        | Function                                                          |
+|:----------------------------------:|-------------------------------------------------------------------|
+|    <trigger.item.hand.nbt.KEY>     | Returns the specified NBT key of the trigger's hand item.         |
 
 ## Item Placeholders
 These placeholders will return information related to the item that called the skill
@@ -37,8 +37,13 @@ These placeholders will return information related to the item that called the s
 
 ## Stat Placeholders
 These placeholders will return stat information.
+|         Stat Placeholder           | Function                                                          |
+|:----------------------------------:|-------------------------------------------------------------------|
+|    <stat.STAT_NAME>                | Returns the value of the specified stat.                          |
 
------------------
-| Stat Placeholders | Function                                                                               |
-|:--------------------:|----------------------------------------------------------------------------------------|
-|    <stat.STAT_NAME>    | Returns the value of the specified stat.                                    |
+
+## Font Placeholders
+Placeholders that can interact with [Custom Fonts](ResourcePack-Generator#fonts)
+|         Fonf Placeholder           | Function                                                          |
+|:----------------------------------:|-------------------------------------------------------------------|
+| <font.[fontname]>             | Returns the character associated with the custom font named `fontname` |
