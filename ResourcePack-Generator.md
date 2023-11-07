@@ -1,21 +1,24 @@
-# Introduction
-
 Crucible can be used to automatically generate some assets from item configurations to be drop-in ready for deployment to a resource pack!
 
+[[_TOC_]]
+
+# Usage
+
+## Generation
+This can be done via the use of the `/mythicmobs items generate` command
 
 The Generation logic will:
   - Auto-detect if the path points to a `.json` or `.bbmodel` file.
   - If it's a bbmodel it will automatically extract the textures, mcmeta, and other relevant data
   - If nether are found, it will check for a `.png` in the textures folder and generate the item as a regular 2d sprite
-  - Will generate any necessary atlases
-  - The Generation fields also work on furniture and furniture states
-  - Export a resource pack ready to merge with your own in `Plugins/MythicMobs/Generation/resource_pack.zip`.
+  - Generate any necessary atlases
 
 And all of the generated files will be put into the `Generation/` folder inside the `MythicMobs` main directory (`../plugins/MythicMobs/Generation/`).
 
-# Usage
-This can be done via the use of the `/mythicmobs items generate` command
+The resulting resourcepack will be put in `../plugins/MythicMobs/Generation/resource_pack.zip`.
 
+## Merging
+A resource pack in `MythicMobs/Generation/merge` will automatically be merged into the generated pack, including any item overrides and atlases
 
 # Packs
 Packs can now contain an "Assets" folder with the following layout:
@@ -33,15 +36,20 @@ Items will be generated **using the configured Material and Model numbers**, and
 ## Sounds
 The structure of the sounds folder will be used to generate a sounds.json.
 `Assets/sounds/entity/cerberus/growl.ogg` would generate a sound at `entity.cerberus.growl`.  
-If there are multiple numbered sounds, it will add those all as random options to the same sound e.g. growl1.ogg, growl2.ogg
+If there are multiple numbered sounds, it will add those all as random options to the same sound e.g. growl1.ogg, growl2.ogg.  
+
+If the top-level folder in Assets/sounds is a sound category, it will use that as the category.
 
 All assets are generated in the `mythic:` namespace to avoid conflicts, including with custom blocks now (the sound mechanic will automatically detect these sounds so adding it manually isn't necessary)
+
+
+# Item Configurations
 
 ## Basic Item Configuration
 Generation settings are configured on the item in the `Generation` field/section.
 
 The most basic way of doing this only requires you to set the Generation field like so:
-```
+```yaml
 EmeraldSword:
   Material: DIAMOND_SWORD
   Model: 1
@@ -57,9 +65,10 @@ If the model is a `.bbmodel` file, your work is done! The generator will extract
 
 The Material and CustomModelId of the Mythic item will be used for generating the pack.
 
+
 ## Advanced Item Configuration
 Generation supports other options as well for more advanced usage. 
-```
+```yaml
 EmeraldSword:
   Material: DIAMOND_SWORD
   Model: 1
@@ -70,9 +79,9 @@ EmeraldSword:
     - override/texture
 ```
 
-## Examples
+# Examples
 
-### Furniture
+## Furniture
 
 ```yml
 TestGeneration5:
@@ -98,8 +107,9 @@ TestGeneration5:
         Generation: item/toilet_flushed
         # And this would be BRICK CMD 12
 ```
+> The Generation fields also work on furniture and furniture states
 
-### Items
+## Items
 
 ```yml
 GolfPutter:
@@ -115,7 +125,7 @@ GolfPutter:
     # Textures is optional, best for if there is more than 1 texture on a model.
 ```
 
-### Blocks
+## Blocks
 
 ```yml
   CustomBlock:
@@ -125,7 +135,7 @@ GolfPutter:
     # The texture here will default to a generic block with the texture on all sides.
 ```
 
-### Armor Trims 
+## Armor Trims 
 
 ```yml
 CopperHelmet:
@@ -145,10 +155,9 @@ CopperHelmet:
     # vvv copper_layer_2.png # BOTTOM PART - (keep in mind, you must use layer_1 and layer_2)
     Armor:
       Texture: armor/copper
+      Type: TRIMS
+      # ^^^ specify either TRIMS or SHADERS when both are enabled
 ```
-
-config-generation.yml used for this example:
-
 ```yml
   CustomArmor:
     Trims:
@@ -159,5 +168,75 @@ config-generation.yml used for this example:
     Optifine:
       Enabled: false
     CoreShaders:
+      Enabled: true
+```
+> config-generation.yml used for this example
+
+
+# Configuration Files
+
+## config-generation.yml
+```yaml
+Generation:
+  # The namespace to use
+  Namespace: mythic
+
+  # If the modelengine resourcepack should be automatically merged
+  MergeModelEngine: true
+
+  # If the pack should be zipped
+  ZipPack: true
+
+
+  Deployment:
+    
+    # If the auto deployment feature is enabled
+    Enabled: false
+
+    # The type of the auto deployment. Can be SELFHOST or S3
+    Type: SELFHOST
+
+    # SELFHOST deployment options
+    SelfHosting:
+
+      # The port to use
+      Port: 8080
+
+    # S3 deployment options
+    S3:
+      Storage:
+        Key: pack
+        Bucket: packs
+      Authentication:
+        Endpoint: ''
+        AccessKey: ''
+        SecretKey: ''
+
+    # If the resourcepack should be automatically sent to players
+    AutoSend:
       Enabled: false
+      SendOnUpdate: false
+      PublicURL: https://s3.yourcoolwebsite.com
+
+
+  CustomArmor:
+    
+    # What is the default generation method for custom armors. Can be NONE, TRIMS or SHADERS
+    DefaultMethod: TRIMS
+
+    # If the related optifine files should be generated
+    GenerateOptifineFiles: true
+
+    # Options for TRIMS
+    Trims:
+      Enabled: false
+      GenerateDataPack: true
+
+      # A list of armor types to hide in order to correctly override them
+      HideBaseArmor: []
+
+    # Options for SHADERS
+    Shaders:
+      Enabled: false
+      Shader: lessfancypants
 ```
