@@ -33,6 +33,7 @@ The contents of these folders should be similar to an actual resource pack. In t
 
 Items will be generated **using the configured Material and Model numbers**, and will output a warning if duplicates are detected.  
 
+
 ## Sounds
 The structure of the sounds folder will be used to generate a sounds.json.
 `Assets/sounds/entity/cerberus/growl.ogg` would generate a sound at `entity.cerberus.growl`.  
@@ -41,6 +42,22 @@ If there are multiple numbered sounds, it will add those all as random options t
 If the top-level folder in Assets/sounds is a sound category, it will use that as the category.
 
 All assets are generated in the `mythic:` namespace to avoid conflicts, including with custom blocks now (the sound mechanic will automatically detect these sounds so adding it manually isn't necessary)
+
+
+## Fonts
+Configured via the `font-images.yml` file.
+Allows you to define custom image that is assigned to a special font characters that can be used in placeholders. Only the bitmap type is supported at this time. Can be found and used inside packs.
+
+The file can contain multiple "entries". Each entry looks something like this:
+```yaml
+Donut:
+     Type: bitmap
+     Char: "\u6000"
+     File: unicode/coverscreen/donut
+     Ascent: 7
+     Height: 15
+```
+These can be accessed using the placeholder <fontimage.donut> and can be used with the Text projectiles.
 
 
 # Item Configurations
@@ -80,7 +97,7 @@ EmeraldSword:
 ```
 
 
-## Special Options
+## Specific Item Types Options
 Specific item types can have further special options to assign to every specific state they can have a different texture/model.
 
 The value is the same as normal - can be a bbmodel or json in the models folder, or a png in the textures folder to generate a sprite.
@@ -110,6 +127,25 @@ TortoiseShield:
   Generation:
     Model: item/shields/tortoise_shield
     Blocking: item/shields/tortoise_shield_blocking
+```
+
+
+## Transformation Options
+Allows you to quickly make color variants of items if you're into that sort of thing. Only really works with sprite items, flips and rotations etc don't work with models.
+```yaml
+TestGenerationSpriteColorize:
+  Material: IRON_SWORD
+  Model: 106
+  Display: 'Blue Phoenix Sword'
+  Generation:
+    Texture: item/weapons/phoenix_sword
+    Transform:
+      FlipHorizontal: false
+      FlipVertical: false
+      Color: '#0000FF'
+      HueShift: 0
+      Saturation: 1.5
+      Brightness: 1
 ```
 
 # Examples
