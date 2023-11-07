@@ -8,23 +8,26 @@
   * [Item Options](Options)
   * [Item Skills](Usage)
   * [Item Durability](CustomDurability)
-  * [Custom Blocks](Custom-Blocks)
-  * [Furniture](Furniture) 
-    * [Paint Brush](Paint-Brush)
   * [Crafting Recipes](Recipes)
     * [Workbenches](Recipes/Workbenches)
-  * [Custom Bags](Bags)
   * [Ammo System / Guns](Ammo)
-  * [Dynamic Lore Generation - WIP](Dynamic-Lore-Generation)
-  * [ResourcePack Generator - WIP](ResourcePack-Generator)
+  * [Dynamic Lore Generation](Dynamic-Lore-Generation)
+  * [ResourcePack Generator](ResourcePack-Generator)
 
-##### New Mechanics
+##### Item Types
+  * [Blocks](Custom-Blocks)
+  * [Furniture](Furniture) 
+    * [Paint Brush](Paint-Brush)
+  * [Bags](Bags)
+  * [Hats](Hats)
+
+##### Mechanics
   * [Item Mechanics](Skills/Mechanics)
   * [Item Targeters](Skills/Targeters)
   * [Item Triggers](Skills/Triggers)
   * [Item Conditions](Skills/Conditions)
 
-##### New Placeholders
+##### Placeholders
   * [Placeholders](Placeholders)
   * [Placeholders.yml](placeholders.yml)
 
