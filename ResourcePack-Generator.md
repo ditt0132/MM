@@ -304,6 +304,9 @@ Generation:
       # A list of armor types to hide in order to correctly override them
       HideBaseArmor: []
 
+      # Causes any hidden armor types to be auto-converted to a trim that looks like the vanilla armor
+      ConvertBaseArmor: true
+
     # Options for SHADERS
     Shaders:
       Enabled: false
