@@ -2,11 +2,13 @@ Crucible allows people to create "furniture", custom objects that can be placed 
 
 Items that are configured to be furniture will have their corresponding furniture object placed in the world where the player is looking when right-clicked, and will drop the original item when broken by default (unless configured otherwise).
 
-Furniture objects are rendered depending on your Minecraft version.<br>
-On versions 1.19.3 and older they use invisible Item Frames.<br>
-On versions 1.19.4 and newer they use Display Entities.<br>
-Armor stands are used for any Seats the furniture has.<br>
-If you are on 1.19.4 or newer and wish to use Item Frames instead you can specify by adding `Type: ITEM_FRAME` under the Furniture section of your item.
+Furniture objects are rendered depending on your Minecraft version.  
+On versions 1.19.3 and older they use invisible Item Frames.  
+On versions 1.19.4 and newer they use Display Entities.  
+Armor stands are used for any Seats the furniture has.  
+
+If you are on 1.19.4 or newer and wish to use Item Frames instead you can specify by adding `Type: ITEM_FRAME` under the Furniture section of your item.  
+You can also use `Type: ARMOR_STAND` to use Armor Stands instead
 
 <!-- TABLE OF CONTENTS -->
 <!-- I am perfectly aware of the [[_TOC_]] shortcut, but in this instance it is not ideal -->
