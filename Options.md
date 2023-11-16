@@ -11,4 +11,4 @@ These options are applicable to all items, and go under the Options field:
 | Placeable: [true/false]      | Allows the item to be placed in the world                      |
 | PreventAnvil: [true/false]   | Prevents the item from being used in an anvil.                 |
 | PreventCrafting: [true/false]| Prevents the item from being used to craft other items. Defaults to true for items with CustomModelData.                      |
-| PreventAnvil: [true/false]   | Prevents the item from being used in an anvil.                 |
+| PreventEnchanting: [true/false]| Prevents the item from being enchanted. |
