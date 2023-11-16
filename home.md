@@ -9,7 +9,7 @@ Manual
 -----
 * [[Home]]
 * [[Changelogs]]
-* [[Commands and Permissions]]
+* [Commands / Permissions](Commands and Permissions)
 * [FAQ / Common Issues](FAQ)
 
 ##### Usage
@@ -17,22 +17,27 @@ Manual
   * [Item Options](Options)
   * [Item Skills](Usage)
   * [Item Durability](CustomDurability)
-  * [Custom Blocks](Custom-Blocks)
+  * [Crafting Recipes](Recipes)
+    * [Workbenches](Recipes/Workbenches)
+  * [Ammo System / Guns](Ammo)
+  * [Dynamic Lore Generation](Dynamic-Lore-Generation)
+  * [ResourcePack Generator](ResourcePack-Generator)
+  * [World Generation](World-Generation)
+
+##### Item Types
+  * [Blocks](Custom-Blocks)
   * [Furniture](Furniture) 
     * [Paint Brush](Paint-Brush)
-  * [Crafting Recipes](Recipes)
-  * [Custom Bags](Bags)
-  * [Ammo System / Guns](Ammo)
-  * [Dynamic Lore Generation - WIP](Dynamic-Lore-Generation)
-  * [ResourcePack Generator - WIP](ResourcePack-Generator)
+  * [Bags](Bags)
+  * [Hats](Hats)
 
-##### New Mechanics
+##### Mechanics
   * [Item Mechanics](Skills/Mechanics)
   * [Item Targeters](Skills/Targeters)
   * [Item Triggers](Skills/Triggers)
   * [Item Conditions](Skills/Conditions)
 
-##### New Placeholders
+##### Placeholders
   * [Placeholders](Placeholders)
   * [Placeholders.yml](placeholders.yml)
 
