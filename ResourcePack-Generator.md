@@ -57,7 +57,19 @@ Donut:
      Ascent: 7
      Height: 15
 ```
-These can be accessed using the placeholder <fontimage.donut> and can be used with the Text projectiles.
+These can be accessed using the placeholder <fontimage.donut> and can be used with the Text projectiles.  
+
+The `Ascent` and `Height` options can be left empty: those values can be automatically calculated by Crucible if not specified.  
+
+The `File` option can use images in the `minecraft:` namespace
+
+```yaml
+lightning:
+  File: unicode/lightning
+
+iron_boots:
+  File: minecraft:item/iron_boots
+```
 
 
 # Item Configurations
@@ -250,8 +262,11 @@ Generation:
   # The namespace to use
   Namespace: mythic
 
-  # If the modelengine resourcepack should be automatically merged
+  # If the ModelEngine resourcepack should be automatically merged
   MergeModelEngine: true
+
+  # If the HappyHUD resourcepack should be automatically merged
+  MergeHappyHUD: true
 
   # If the pack should be zipped
   ZipPack: true
