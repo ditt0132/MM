@@ -239,6 +239,8 @@ Each state can use the `Model`furniture options, and also `Lights: false` to tur
 
 The `DefaultState` (defaults to "DEFAULT") allows you to set the name of the base version of the furniture for referencing in mecahnics.
 
+**Please Note** Using `ON` and `OFF` are not valid for state names due to something with YAML. You can solve this by using `'ON'` and `'OFF'` instead.
+
 ## Examples
 ```yaml
 TestFurniture:
