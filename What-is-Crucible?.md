@@ -1,5 +1,3 @@
-What is Crucible?
------------------
 MythicCrucible is the ultimate item add-on for Mythic!
 
 It allows you to create:
