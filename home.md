@@ -1,6 +1,14 @@
 What is Crucible?
 -----------------
-MythicCrucible is the ultimate item add-on for Mythic! It allows you to create custom items, armor, blocks, "furniture" / placeable objects, crafting recipes, and more!
+MythicCrucible is the ultimate item add-on for Mythic!
+
+It allows you to create:
+- Custom items
+- Custom armor
+- Custom blocks
+- "Furniture" / placeable objects
+- Crafting recipes
+- ...and more!
 
 All of these can use any Mythic skills, stats, conditions, most triggers (including new triggers specifically for items), and many new special options!
 
