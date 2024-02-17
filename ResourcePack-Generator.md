@@ -21,7 +21,7 @@ The resulting resourcepack will be put in `../plugins/MythicMobs/Generation/reso
 A resource pack in `MythicMobs/Generation/merge` will automatically be merged into the generated pack, including any item overrides and atlases
 
 # Packs
-Packs can now contain an "Assets" folder with the following layout:
+[Packs] can now contain an "Assets" folder with the following layout:
 ```
 Pack
   |-- Assets
@@ -46,7 +46,7 @@ All assets are generated in the `mythic:` namespace to avoid conflicts, includin
 
 ## Fonts
 Configured via the `font-images.yml` file.
-Allows you to define custom image that is assigned to a special font characters that can be used in placeholders. Only the bitmap type is supported at this time. Can be found and used inside packs.
+Allows you to define custom image that is assigned to a special font characters that can be used in placeholders. Only the bitmap type is supported at this time. Can be found and used inside [packs].
 
 The file can contain multiple "entries". Each entry looks something like this:
 ```yaml
@@ -92,7 +92,7 @@ This will do the following:
 
 If the model is a `.bbmodel` file, your work is done! The generator will extract the textures and mcmeta files for you automatically. However, if you are using a `.json` model, the generator will read the textures from the .json file and look for them in the `Pack/Assets/textures` folder (similar to how a resource pack works) and use those.
 
-The Material and CustomModelId of the Mythic item will be used for generating the pack.
+The Material and CustomModelId of the Mythic item will be used for generating the resource pack.
 
 
 ## Advanced Item Configuration
@@ -327,3 +327,7 @@ Generation:
       Enabled: false
       Shader: lessfancypants
 ```
+
+
+<!-- LINKS -->
+[Packs]: https://git.lumine.io/mythiccraft/MythicMobs/-/wikis/Packs
