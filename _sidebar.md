@@ -10,7 +10,7 @@
   * [Item Durability](CustomDurability)
   * [Crafting Recipes](Recipes)
     * [Workbenches](Recipes/Workbenches)
-  * [[Item Updater]]
+  * [Item Updater](Item-Updater)
   * [Ammo System / Guns](Ammo)
   * [Dynamic Lore Generation](Dynamic-Lore-Generation)
   * [ResourcePack Generator](ResourcePack-Generator)
