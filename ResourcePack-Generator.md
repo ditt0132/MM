@@ -106,6 +106,9 @@ EmeraldSword:
     Parent: some/parent
     Textures:
     - override/texture
+    HideBones:    # A list of bones to hide. Usable with .bbmodel files
+    - some_bone
+    - some_other_bone
 ```
 
 
