@@ -1,17 +1,26 @@
 Updates the item on MM reload when ItemVersion differs.
-This allows you to update items when MM reloads by changing the ItemVersion. If you haven't reset your config.yml in a while, then this feature requires the following to be added to the MythicCrucible config.yml:
-
+This allows you to update items when MM reloads by changing the ItemVersion. Inside your `config.yml` you will find the following option to determine if this feature should be available or not:
 ```yml
 ItemUpdater:
   Enabled: true
 ```
 
-Below are a couple examples:
+And enabling that allows for the following options to be used inside items:
+```yaml
+example_item:
+  Id: stone
+  ItemUpdater:
+    Version: 0                # Defaults at 0
+    PreserveStatRatio: true   # Defaults at true
+```
 
+## Examples
 ```yml
 yet_another_example_item:
   Id: diamond_sword
-  ItemVersion: 1
+  ItemUpdater:
+    Version: 1
+    PreserveStatRatio: true
   Lore:
     - "Really really cool sword."
 ```
@@ -19,7 +28,9 @@ yet_another_example_item:
 ```yml
 yet_another_example_item:
   Id: diamond_sword
-  ItemVersion: 2
+  ItemUpdater:
+    Version: 2
+    PreserveStatRatio: true
   Lore:
     - "I hated the old lore so I updated it."
 ```
