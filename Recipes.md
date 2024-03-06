@@ -1,7 +1,3 @@
-Crafting Recipes
-----------------
-Added in v1.5.0 dev builds.
-
 An item can have multiple recipes attached to it of any type, allowing items to be crafted in more than 1 way.
 
 ### Available Recipe Types
@@ -15,8 +11,7 @@ An item can have multiple recipes attached to it of any type, allowing items to 
 - [`SMITHING`](Recipes/Smithing) - In a smithing table
 - [`BREWING`](Recipes/Brewing) - Brewed in a brewing stand
 
-Leftover Items
-----------------------
+# Leftover Items
 ### Works only for `Shaped` and `Shapeless`
 
 If you want to have items leftover inside the crafting grid after a recipe is completed you can add the`IngredientsLeftover` option. This will work in the same way crafting with a bucket of milk will leave the empty bucket in the grid. You can use any item including Mythic items. In the below example an empty bucket will be left in the crafting grid once the item is crafted.
@@ -36,8 +31,24 @@ TestRecipe:
       - apple
 ```
 
-Example Crafting Configuration
----------------------
+
+# CraftSkills
+Allows the player to execute a skill once the associated item is crafted.  
+The `<skill.var.crafts>` placeholder can be used to fetch the amount of items crafted.  
+```yaml
+ThiccItem:
+     Recipes:
+       Recipe:
+         Type: SHAPELESS
+         Ingredients:
+         - slime_ball
+         - honey_bottle
+         CraftSkills:
+         - lightning @self
+```
+
+
+# Example Crafting Configuration
 Here is an example of an item with multiple recipes attached to it.
 ```yaml
 TestRecipe:
