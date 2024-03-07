@@ -33,7 +33,7 @@ TestRecipe:
 
 # Conditions
 ### Works only for `Shaped` and `Shapeless`
-You can check against a set of [Conditions](https://git.mythicmobs.io/mythiccraft/MythicMobs/-/wikis/Skills/conditions) that must be met in order for the player to be able to craft the item
+You can check against a set of [Conditions](https://git.lumine.io/mythiccraft/MythicMobs/-/wikis/Skills/conditions) that must be met in order for the player to be able to craft the item
 ```yaml
 TestRecipe:
   Id: GOLD_NUGGET
