@@ -31,8 +31,25 @@ TestRecipe:
       - apple
 ```
 
+# Conditions
+### Works only for `Shaped` and `Shapeless`
+You can check against a set of [Conditions](https://git.mythicmobs.io/mythiccraft/MythicMobs/-/wikis/Skills/conditions) that must be met in order for the player to be able to craft the item
+```yaml
+TestRecipe:
+  Id: GOLD_NUGGET
+  Display: 'Test Recipe'
+  Recipes:
+    NIGHT:
+      Type: SHAPED
+      Conditions:
+      - night
+      Ingredients:
+      - FEATHER | AIR
+      - AIR | FEATHER
+```
 
 # CraftSkills
+### Works only for `Shaped` and `Shapeless`
 Allows the player to execute a skill once the associated item is crafted.  
 The `<skill.var.crafts>` placeholder can be used to fetch the amount of items crafted.  
 ```yaml
