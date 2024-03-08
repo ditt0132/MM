@@ -1,4 +1,4 @@
-1.7.0 (dev builds)
+2.0.0 
 =====
 
 1.6.0
@@ -130,15 +130,11 @@ Bug Fixes/Other
 - Fixed some errors with furniture hitboxes
 - Fixed a bunch of other assorted furniture bugs
 
-1.4.0
-=====
 
-Highlights
-----------
-- Added Furniture
 
 Older Changelogs
 ================
+-   [1.6.X Changelogs](/1.6.x_changelogs)
 -   [1.5.X Changelogs](/1.5.x_changelogs)
 -   [1.4.X Changelogs](/1.4.x_changelogs)
 -   [1.3.X Changelogs](/1.3.x_changelogs)
