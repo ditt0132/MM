@@ -4,13 +4,13 @@ The following targeters can use any [Common Attribute](/Skills/Targeters#common-
 ### Multi-Entity Targeters
 | Targeter | Shorthand | Description                                                                     |
 |----------|-----------|---------------------------------------------------------------------------------|
-| @[FurnitureInRadius](/Targeters/FurnitureInRadius) | | Targets furniture in a radius                                                                                                                                                                        |
+| @[FurnitureInRadius](/Targeters/FurnitureInRadius)                                                      | @FIR                                                                                                    | Targets furniture in a radius                                                                                                                                                                        |
 
 ## Location Targeters
 ### Single-Location Targeters
 | Targeter | Shorthand | Description                                                                     |
 |----------|-----------|---------------------------------------------------------------------------------|
-| @MuzzleLocation{rotation=160}                                                                                                                                        | @muzzle                                                                                                                                                                                                                                                                                                                                              |
+| @MuzzleLocation{rotation=160}                                                                                                                                        | @Muzzle                                                                                                                                                                                                                                                                                                                                              |
 
 ## Meta Targeters
 
